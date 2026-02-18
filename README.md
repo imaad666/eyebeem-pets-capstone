@@ -1,14 +1,5 @@
 # EYE BEE M Pets - Capstone Project
 
-A retro monochrome "pixel art" e-commerce store for robotic pets.
-
-**Stack:**
-- Frontend: React + Vite
-- Backend: Java Spring Boot + MySQL
-- Testing: Selenium + Java + TestNG
-
-## Quick Start
-
 ### Frontend
 ```bash
 cd frontend
