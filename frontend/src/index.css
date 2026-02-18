@@ -1,6 +1,18 @@
-/* Local fonts (bundled, font-display: swap) */
-@import '@fontsource/vt323/latin-400.css';
-@import '@fontsource/press-start-2p/latin-400.css';
+/* Local fonts from public/fonts (preloaded in index.html to reduce CLS and improve LCP) */
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/vt323-latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/press-start-2p-latin-400-normal.woff2) format('woff2');
+}
 
 :root {
   /* Color Palette */
