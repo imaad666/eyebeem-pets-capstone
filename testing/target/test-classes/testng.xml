@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EYE BEE M Pets UI Suite" verbose="1">
+    <test name="Home Page Tests">
+        <classes>
+            <class name="com.eyebeem.tests.home.HomePageTitleTest"/>
+            <class name="com.eyebeem.tests.home.HomePageHeroTest"/>
+            <class name="com.eyebeem.tests.home.HomePageNavbarTest"/>
+            <class name="com.eyebeem.tests.home.HomePageFooterTest"/>
+        </classes>
+    </test>
+    <test name="Login Page Tests">
+        <classes>
+            <class name="com.eyebeem.tests.login.LoginPageFormTest"/>
+            <class name="com.eyebeem.tests.login.LoginPageSubmitTest"/>
+            <class name="com.eyebeem.tests.login.LoginPageLogoutTest"/>
+            <class name="com.eyebeem.tests.login.LoginPageNavigationTest"/>
+        </classes>
+    </test>
+    <test name="Products Page Tests">
+        <classes>
+            <class name="com.eyebeem.tests.products.ProductsPageDisplayTest"/>
+            <class name="com.eyebeem.tests.products.ProductsPageSearchTest"/>
+            <class name="com.eyebeem.tests.products.ProductsPageFilterTest"/>
+            <class name="com.eyebeem.tests.products.ProductsPageAddToCartTest"/>
+        </classes>
+    </test>
+    <test name="Cart Page Tests">
+        <classes>
+            <class name="com.eyebeem.tests.cart.CartPageEmptyTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageItemsTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageTotalTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageCheckoutTest"/>
+        </classes>
+    </test>
+    <test name="Checkout Page Tests">
+        <classes>
+            <class name="com.eyebeem.tests.checkout.CheckoutPageAddressTest"/>
+            <class name="com.eyebeem.tests.checkout.CheckoutPagePaymentTest"/>
+            <class name="com.eyebeem.tests.checkout.CheckoutPageOrderTest"/>
+        </classes>
+    </test>
+    <test name="Orders Page Tests">
+        <classes>
+            <class name="com.eyebeem.tests.orders.OrdersPageEmptyTest"/>
+            <class name="com.eyebeem.tests.orders.OrdersPageListTest"/>
+            <class name="com.eyebeem.tests.orders.OrdersPageDetailsTest"/>
+        </classes>
+    </test>
+</suite>
+

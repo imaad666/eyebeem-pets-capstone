@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EYE BEE M Pets UI Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Products Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.eyebeem.tests.products.ProductsPageSearchTest">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="productSearchFiltersResults"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.products.ProductsPageSearchTest -->
+    </classes>
+  </test> <!-- Products Page Tests(failed) -->
+  <test thread-count="5" name="Cart Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.eyebeem.tests.cart.CartPageCheckoutTest">
+        <methods>
+          <include name="checkoutButtonNavigatesToCheckoutPage"/>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.cart.CartPageCheckoutTest -->
+      <class name="com.eyebeem.tests.cart.CartPageTotalTest">
+        <methods>
+          <include name="cartPageDisplaysCorrectTotal"/>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.cart.CartPageTotalTest -->
+      <class name="com.eyebeem.tests.cart.CartPageItemsTest">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+          <include name="cartPageDisplaysItemsWhenCartHasProducts"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.cart.CartPageItemsTest -->
+    </classes>
+  </test> <!-- Cart Page Tests(failed) -->
+  <test thread-count="5" name="Checkout Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.eyebeem.tests.checkout.CheckoutPageAddressTest">
+        <methods>
+          <include name="checkoutPageAddressFormAcceptsValidInput"/>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.checkout.CheckoutPageAddressTest -->
+      <class name="com.eyebeem.tests.checkout.CheckoutPageOrderTest">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+          <include name="checkoutCompletesOrderSuccessfully"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.checkout.CheckoutPageOrderTest -->
+      <class name="com.eyebeem.tests.checkout.CheckoutPagePaymentTest">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+          <include name="checkoutPaymentStepDisplaysPaymentOptions"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.checkout.CheckoutPagePaymentTest -->
+    </classes>
+  </test> <!-- Checkout Page Tests(failed) -->
+  <test thread-count="5" name="Orders Page Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.eyebeem.tests.orders.OrdersPageListTest">
+        <methods>
+          <include name="ordersPageDisplaysOrderListAfterOrderIsPlaced"/>
+          <include name="tearDownDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.orders.OrdersPageListTest -->
+      <class name="com.eyebeem.tests.orders.OrdersPageDetailsTest">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="ordersPageDisplaysOrderDetailsCorrectly"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.eyebeem.tests.orders.OrdersPageDetailsTest -->
+    </classes>
+  </test> <!-- Orders Page Tests(failed) -->
+</suite> <!-- Failed suite [EYE BEE M Pets UI Suite] -->

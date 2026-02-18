@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" class="navigator-link">
+              <span class="suite-name border-failed">EYE BEE M Pets UI Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EYE_BEE_M_Pets_UI_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 9 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" class="hide-methods failed suite-EYE_BEE_M_Pets_UI_Suite"> (hide)</a> <!-- hide-methods failed suite-EYE_BEE_M_Pets_UI_Suite -->
+                      <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" class="show-methods failed suite-EYE_BEE_M_Pets_UI_Suite"> (show)</a> <!-- show-methods failed suite-EYE_BEE_M_Pets_UI_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-EYE_BEE_M_Pets_UI_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.cart.CartPageTotalTest" class="method navigator-link" hash-for-method="cartPageDisplaysCorrectTotal">cartPageDisplaysCorrectTotal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.cart.CartPageItemsTest" class="method navigator-link" hash-for-method="cartPageDisplaysItemsWhenCartHasProducts">cartPageDisplaysItemsWhenCartHasProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.cart.CartPageCheckoutTest" class="method navigator-link" hash-for-method="checkoutButtonNavigatesToCheckoutPage">checkoutButtonNavigatesToCheckoutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.checkout.CheckoutPageOrderTest" class="method navigator-link" hash-for-method="checkoutCompletesOrderSuccessfully">checkoutCompletesOrderSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.checkout.CheckoutPageAddressTest" class="method navigator-link" hash-for-method="checkoutPageAddressFormAcceptsValidInput">checkoutPageAddressFormAcceptsValidInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.checkout.CheckoutPagePaymentTest" class="method navigator-link" hash-for-method="checkoutPaymentStepDisplaysPaymentOptions">checkoutPaymentStepDisplaysPaymentOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.orders.OrdersPageDetailsTest" class="method navigator-link" hash-for-method="ordersPageDisplaysOrderDetailsCorrectly">ordersPageDisplaysOrderDetailsCorrectly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.orders.OrdersPageListTest" class="method navigator-link" hash-for-method="ordersPageDisplaysOrderListAfterOrderIsPlaced">ordersPageDisplaysOrderListAfterOrderIsPlaced</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.products.ProductsPageSearchTest" class="method navigator-link" hash-for-method="productSearchFiltersResults">productSearchFiltersResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EYE_BEE_M_Pets_UI_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" class="hide-methods passed suite-EYE_BEE_M_Pets_UI_Suite"> (hide)</a> <!-- hide-methods passed suite-EYE_BEE_M_Pets_UI_Suite -->
+                      <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" class="show-methods passed suite-EYE_BEE_M_Pets_UI_Suite"> (show)</a> <!-- show-methods passed suite-EYE_BEE_M_Pets_UI_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-EYE_BEE_M_Pets_UI_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.products.ProductsPageAddToCartTest" class="method navigator-link" hash-for-method="addToCartButtonAddsProductToCart">addToCartButtonAddsProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.cart.CartPageEmptyTest" class="method navigator-link" hash-for-method="cartPageShowsEmptyMessageWhenCartIsEmpty">cartPageShowsEmptyMessageWhenCartIsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.home.HomePageFooterTest" class="method navigator-link" hash-for-method="footerDisplaysCopyrightText">footerDisplaysCopyrightText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.home.HomePageHeroTest" class="method navigator-link" hash-for-method="heroSectionDisplaysHeadingAndTagline">heroSectionDisplaysHeadingAndTagline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.home.HomePageTitleTest" class="method navigator-link" hash-for-method="homePageTitleContainsAppName">homePageTitleContainsAppName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.login.LoginPageSubmitTest" class="method navigator-link" hash-for-method="loginFormAcceptsValidCredentials">loginFormAcceptsValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.login.LoginPageFormTest" class="method navigator-link" hash-for-method="loginFormDisplaysNameAndEmailFields">loginFormDisplaysNameAndEmailFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.login.LoginPageNavigationTest" class="method navigator-link" hash-for-method="loginPageUrlAndTitleAreCorrect">loginPageUrlAndTitleAreCorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.login.LoginPageLogoutTest" class="method navigator-link" hash-for-method="logoutButtonReturnsToLoginForm">logoutButtonReturnsToLoginForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.home.HomePageNavbarTest" class="method navigator-link" hash-for-method="navbarContainsAllNavigationLinks">navbarContainsAllNavigationLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.orders.OrdersPageEmptyTest" class="method navigator-link" hash-for-method="ordersPageShowsEmptyMessageWhenNoOrders">ordersPageShowsEmptyMessageWhenNoOrders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.products.ProductsPageFilterTest" class="method navigator-link" hash-for-method="productTypeFilterFiltersByType">productTypeFilterFiltersByType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EYE_BEE_M_Pets_UI_Suite" title="com.eyebeem.tests.products.ProductsPageDisplayTest" class="method navigator-link" hash-for-method="productsPageDisplaysAllProducts">productsPageDisplaysAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EYE_BEE_M_Pets_UI_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EYE_BEE_M_Pets_UI_Suite" class="panel EYE_BEE_M_Pets_UI_Suite">
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.products.ProductsPageSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSearchFiltersResults">
+                  </a> <!-- productSearchFiltersResults -->
+                  <span class="method-name">productSearchFiltersResults</span>
+                  <div class="stack-trace">java.lang.AssertionError: Should find at least one product matching &apos;e-CAT&apos; expected [true] but found [false]
+	at com.eyebeem.tests.products.ProductsPageSearchTest.productSearchFiltersResults(ProductsPageSearchTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.orders.OrdersPageListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ordersPageDisplaysOrderListAfterOrderIsPlaced">
+                  </a> <!-- ordersPageDisplaysOrderListAfterOrderIsPlaced -->
+                  <span class="method-name">ordersPageDisplaysOrderListAfterOrderIsPlaced</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: checkout-street
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: /var/folders/0n/zxt49fd54g9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, goog:processID: 49433, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa189712f929c07ca9490d977b02625b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.eyebeem.tests.orders.OrdersPageListTest.ordersPageDisplaysOrderListAfterOrderIsPlaced(OrdersPageListTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.checkout.CheckoutPageAddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutPageAddressFormAcceptsValidInput">
+                  </a> <!-- checkoutPageAddressFormAcceptsValidInput -->
+                  <span class="method-name">checkoutPageAddressFormAcceptsValidInput</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: checkout-street
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: /var/folders/0n/zxt49fd54g9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60385}, goog:processID: 49006, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60385/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07686dc62445e6caa8ff3d58729b71d6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.eyebeem.tests.checkout.CheckoutPageAddressTest.checkoutPageAddressFormAcceptsValidInput(CheckoutPageAddressTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.checkout.CheckoutPageOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutCompletesOrderSuccessfully">
+                  </a> <!-- checkoutCompletesOrderSuccessfully -->
+                  <span class="method-name">checkoutCompletesOrderSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: checkout-street
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: /var/folders/0n/zxt49fd54g9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60437}, goog:processID: 49264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60437/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15e6e7b6977984f5f7d640b16af7413a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.eyebeem.tests.checkout.CheckoutPageOrderTest.checkoutCompletesOrderSuccessfully(CheckoutPageOrderTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.cart.CartPageCheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutButtonNavigatesToCheckoutPage">
+                  </a> <!-- checkoutButtonNavigatesToCheckoutPage -->
+                  <span class="method-name">checkoutButtonNavigatesToCheckoutPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Should find GO TO CHECKOUT button expected object to not be null
+	at com.eyebeem.tests.cart.CartPageCheckoutTest.checkoutButtonNavigatesToCheckoutPage(CartPageCheckoutTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.cart.CartPageTotalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartPageDisplaysCorrectTotal">
+                  </a> <!-- cartPageDisplaysCorrectTotal -->
+                  <span class="method-name">cartPageDisplaysCorrectTotal</span>
+                  <div class="stack-trace">java.lang.AssertionError: Cart should display TOTAL section expected [true] but found [false]
+	at com.eyebeem.tests.cart.CartPageTotalTest.cartPageDisplaysCorrectTotal(CartPageTotalTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.checkout.CheckoutPagePaymentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutPaymentStepDisplaysPaymentOptions">
+                  </a> <!-- checkoutPaymentStepDisplaysPaymentOptions -->
+                  <span class="method-name">checkoutPaymentStepDisplaysPaymentOptions</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: checkout-street
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: /var/folders/0n/zxt49fd54g9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60410}, goog:processID: 49144, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60410/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85b1e9f70097beaece1a5e76f1ffc572
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.eyebeem.tests.checkout.CheckoutPagePaymentTest.checkoutPaymentStepDisplaysPaymentOptions(CheckoutPagePaymentTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.cart.CartPageItemsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartPageDisplaysItemsWhenCartHasProducts">
+                  </a> <!-- cartPageDisplaysItemsWhenCartHasProducts -->
+                  <span class="method-name">cartPageDisplaysItemsWhenCartHasProducts</span>
+                  <div class="stack-trace">java.lang.AssertionError: Cart should display at least one item expected [true] but found [false]
+	at com.eyebeem.tests.cart.CartPageItemsTest.cartPageDisplaysItemsWhenCartHasProducts(CartPageItemsTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.eyebeem.tests.orders.OrdersPageDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ordersPageDisplaysOrderDetailsCorrectly">
+                  </a> <!-- ordersPageDisplaysOrderDetailsCorrectly -->
+                  <span class="method-name">ordersPageDisplaysOrderDetailsCorrectly</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: checkout-street
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: /var/folders/0n/zxt49fd54g9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60513}, goog:processID: 49559, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60513/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3cc502c8e753e4b9315bfb964dfb0e0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.eyebeem.tests.orders.OrdersPageDetailsTest.ordersPageDisplaysOrderDetailsCorrectly(OrdersPageDetailsTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-failed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.home.HomePageHeroTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="heroSectionDisplaysHeadingAndTagline">
+                  </a> <!-- heroSectionDisplaysHeadingAndTagline -->
+                  <span class="method-name">heroSectionDisplaysHeadingAndTagline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.products.ProductsPageDisplayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productsPageDisplaysAllProducts">
+                  </a> <!-- productsPageDisplaysAllProducts -->
+                  <span class="method-name">productsPageDisplaysAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.cart.CartPageEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartPageShowsEmptyMessageWhenCartIsEmpty">
+                  </a> <!-- cartPageShowsEmptyMessageWhenCartIsEmpty -->
+                  <span class="method-name">cartPageShowsEmptyMessageWhenCartIsEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.orders.OrdersPageEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ordersPageShowsEmptyMessageWhenNoOrders">
+                  </a> <!-- ordersPageShowsEmptyMessageWhenNoOrders -->
+                  <span class="method-name">ordersPageShowsEmptyMessageWhenNoOrders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.login.LoginPageSubmitTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFormAcceptsValidCredentials">
+                  </a> <!-- loginFormAcceptsValidCredentials -->
+                  <span class="method-name">loginFormAcceptsValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.products.ProductsPageAddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartButtonAddsProductToCart">
+                  </a> <!-- addToCartButtonAddsProductToCart -->
+                  <span class="method-name">addToCartButtonAddsProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.home.HomePageTitleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleContainsAppName">
+                  </a> <!-- homePageTitleContainsAppName -->
+                  <span class="method-name">homePageTitleContainsAppName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.home.HomePageFooterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerDisplaysCopyrightText">
+                  </a> <!-- footerDisplaysCopyrightText -->
+                  <span class="method-name">footerDisplaysCopyrightText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.login.LoginPageLogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutButtonReturnsToLoginForm">
+                  </a> <!-- logoutButtonReturnsToLoginForm -->
+                  <span class="method-name">logoutButtonReturnsToLoginForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.login.LoginPageNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageUrlAndTitleAreCorrect">
+                  </a> <!-- loginPageUrlAndTitleAreCorrect -->
+                  <span class="method-name">loginPageUrlAndTitleAreCorrect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.login.LoginPageFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFormDisplaysNameAndEmailFields">
+                  </a> <!-- loginFormDisplaysNameAndEmailFields -->
+                  <span class="method-name">loginFormDisplaysNameAndEmailFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.home.HomePageNavbarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navbarContainsAllNavigationLinks">
+                  </a> <!-- navbarContainsAllNavigationLinks -->
+                  <span class="method-name">navbarContainsAllNavigationLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+          <div class="suite-EYE_BEE_M_Pets_UI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eyebeem.tests.products.ProductsPageFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productTypeFilterFiltersByType">
+                  </a> <!-- productTypeFilterFiltersByType -->
+                  <span class="method-name">productTypeFilterFiltersByType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EYE_BEE_M_Pets_UI_Suite-class-passed -->
+        </div> <!-- panel EYE_BEE_M_Pets_UI_Suite -->
+        <div panel-name="test-xml-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;EYE BEE M Pets UI Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Home Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eyebeem.tests.home.HomePageTitleTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.home.HomePageHeroTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.home.HomePageNavbarTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.home.HomePageFooterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eyebeem.tests.login.LoginPageFormTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.login.LoginPageSubmitTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.login.LoginPageLogoutTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.login.LoginPageNavigationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Products Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eyebeem.tests.products.ProductsPageDisplayTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.products.ProductsPageSearchTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.products.ProductsPageFilterTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.products.ProductsPageAddToCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Products Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cart Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eyebeem.tests.cart.CartPageEmptyTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.cart.CartPageItemsTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.cart.CartPageTotalTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.cart.CartPageCheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Checkout Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eyebeem.tests.checkout.CheckoutPageAddressTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.checkout.CheckoutPagePaymentTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.checkout.CheckoutPageOrderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkout Page Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Orders Page Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eyebeem.tests.orders.OrdersPageEmptyTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.orders.OrdersPageListTest&quot;/&gt;
+      &lt;class name=&quot;com.eyebeem.tests.orders.OrdersPageDetailsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Orders Page Tests --&gt;
+&lt;/suite&gt; &lt;!-- EYE BEE M Pets UI Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EYE BEE M Pets UI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home Page Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Page Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Products Page Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart Page Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkout Page Tests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Orders Page Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EYE BEE M Pets UI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EYE BEE M Pets UI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EYE_BEE_M_Pets_UI_Suite');
+function tableData_EYE_BEE_M_Pets_UI_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ordersPageDisplaysOrderDetailsCorrectly')
+data.setCell(0, 2, 'com.eyebeem.tests.orders.OrdersPageDetailsTest')
+data.setCell(0, 3, 5938);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkoutCompletesOrderSuccessfully')
+data.setCell(1, 2, 'com.eyebeem.tests.checkout.CheckoutPageOrderTest')
+data.setCell(1, 3, 5931);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkoutPaymentStepDisplaysPaymentOptions')
+data.setCell(2, 2, 'com.eyebeem.tests.checkout.CheckoutPagePaymentTest')
+data.setCell(2, 3, 5925);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ordersPageDisplaysOrderListAfterOrderIsPlaced')
+data.setCell(3, 2, 'com.eyebeem.tests.orders.OrdersPageListTest')
+data.setCell(3, 3, 5925);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkoutPageAddressFormAcceptsValidInput')
+data.setCell(4, 2, 'com.eyebeem.tests.checkout.CheckoutPageAddressTest')
+data.setCell(4, 3, 5920);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'cartPageDisplaysItemsWhenCartHasProducts')
+data.setCell(5, 2, 'com.eyebeem.tests.cart.CartPageItemsTest')
+data.setCell(5, 3, 1625);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkoutButtonNavigatesToCheckoutPage')
+data.setCell(6, 2, 'com.eyebeem.tests.cart.CartPageCheckoutTest')
+data.setCell(6, 3, 1292);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'cartPageDisplaysCorrectTotal')
+data.setCell(7, 2, 'com.eyebeem.tests.cart.CartPageTotalTest')
+data.setCell(7, 3, 1284);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginFormAcceptsValidCredentials')
+data.setCell(8, 2, 'com.eyebeem.tests.login.LoginPageSubmitTest')
+data.setCell(8, 3, 1054);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logoutButtonReturnsToLoginForm')
+data.setCell(9, 2, 'com.eyebeem.tests.login.LoginPageLogoutTest')
+data.setCell(9, 3, 935);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'productSearchFiltersResults')
+data.setCell(10, 2, 'com.eyebeem.tests.products.ProductsPageSearchTest')
+data.setCell(10, 3, 785);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'productTypeFilterFiltersByType')
+data.setCell(11, 2, 'com.eyebeem.tests.products.ProductsPageFilterTest')
+data.setCell(11, 3, 739);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'navbarContainsAllNavigationLinks')
+data.setCell(12, 2, 'com.eyebeem.tests.home.HomePageNavbarTest')
+data.setCell(12, 3, 736);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginFormDisplaysNameAndEmailFields')
+data.setCell(13, 2, 'com.eyebeem.tests.login.LoginPageFormTest')
+data.setCell(13, 3, 735);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addToCartButtonAddsProductToCart')
+data.setCell(14, 2, 'com.eyebeem.tests.products.ProductsPageAddToCartTest')
+data.setCell(14, 3, 724);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'productsPageDisplaysAllProducts')
+data.setCell(15, 2, 'com.eyebeem.tests.products.ProductsPageDisplayTest')
+data.setCell(15, 3, 717);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'cartPageShowsEmptyMessageWhenCartIsEmpty')
+data.setCell(16, 2, 'com.eyebeem.tests.cart.CartPageEmptyTest')
+data.setCell(16, 3, 684);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'heroSectionDisplaysHeadingAndTagline')
+data.setCell(17, 2, 'com.eyebeem.tests.home.HomePageHeroTest')
+data.setCell(17, 3, 670);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'footerDisplaysCopyrightText')
+data.setCell(18, 2, 'com.eyebeem.tests.home.HomePageFooterTest')
+data.setCell(18, 3, 661);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ordersPageShowsEmptyMessageWhenNoOrders')
+data.setCell(19, 2, 'com.eyebeem.tests.orders.OrdersPageEmptyTest')
+data.setCell(19, 3, 661);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginPageUrlAndTitleAreCorrect')
+data.setCell(20, 2, 'com.eyebeem.tests.login.LoginPageNavigationTest')
+data.setCell(20, 3, 658);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'homePageTitleContainsAppName')
+data.setCell(21, 2, 'com.eyebeem.tests.home.HomePageTitleTest')
+data.setCell(21, 3, 230);
+window.suiteTableData['EYE_BEE_M_Pets_UI_Suite']= { tableData: data, tableDiv: 'times-div-EYE_BEE_M_Pets_UI_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-EYE_BEE_M_Pets_UI_Suite">
+              </div> <!-- times-div-EYE_BEE_M_Pets_UI_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EYE BEE M Pets UI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EYE_BEE_M_Pets_UI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.home.HomePageTitleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleContainsAppName</span>
+                <span class="method-start">3108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">3339 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.home.HomePageHeroTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">3445 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">heroSectionDisplaysHeadingAndTagline</span>
+                <span class="method-start">4625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">5295 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.home.HomePageNavbarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">5378 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navbarContainsAllNavigationLinks</span>
+                <span class="method-start">6391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">7128 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.home.HomePageFooterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">7211 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">footerDisplaysCopyrightText</span>
+                <span class="method-start">8345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">9006 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.login.LoginPageFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">9119 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginFormDisplaysNameAndEmailFields</span>
+                <span class="method-start">10257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">10993 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.login.LoginPageSubmitTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">11082 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginFormAcceptsValidCredentials</span>
+                <span class="method-start">11930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">12984 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.login.LoginPageLogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">13073 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">logoutButtonReturnsToLoginForm</span>
+                <span class="method-start">14076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">15012 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.login.LoginPageNavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">15102 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPageUrlAndTitleAreCorrect</span>
+                <span class="method-start">16192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">16851 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.products.ProductsPageDisplayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">16955 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">productsPageDisplaysAllProducts</span>
+                <span class="method-start">18043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">18760 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.products.ProductsPageSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">18848 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productSearchFiltersResults</span>
+                <span class="method-start">19947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">20735 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.products.ProductsPageFilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">20826 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">productTypeFilterFiltersByType</span>
+                <span class="method-start">21919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">22659 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.products.ProductsPageAddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">22748 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addToCartButtonAddsProductToCart</span>
+                <span class="method-start">23826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">24551 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.cart.CartPageEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">24647 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">cartPageShowsEmptyMessageWhenCartIsEmpty</span>
+                <span class="method-start">25726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">26411 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.cart.CartPageItemsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">26513 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cartPageDisplaysItemsWhenCartHasProducts</span>
+                <span class="method-start">27576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">29202 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.cart.CartPageTotalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">29292 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cartPageDisplaysCorrectTotal</span>
+                <span class="method-start">30294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">31579 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.cart.CartPageCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">31673 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutButtonNavigatesToCheckoutPage</span>
+                <span class="method-start">32760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">34053 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.checkout.CheckoutPageAddressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">34160 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutPageAddressFormAcceptsValidInput</span>
+                <span class="method-start">35247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">41175 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.checkout.CheckoutPagePaymentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">41277 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutPaymentStepDisplaysPaymentOptions</span>
+                <span class="method-start">42040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">47966 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.checkout.CheckoutPageOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">48073 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutCompletesOrderSuccessfully</span>
+                <span class="method-start">49175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">55107 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.orders.OrdersPageEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">55210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ordersPageShowsEmptyMessageWhenNoOrders</span>
+                <span class="method-start">56203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">56865 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.orders.OrdersPageListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">56951 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ordersPageDisplaysOrderListAfterOrderIsPlaced</span>
+                <span class="method-start">58091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">64018 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eyebeem.tests.orders.OrdersPageDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">64119 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ordersPageDisplaysOrderDetailsCorrectly</span>
+                <span class="method-start">65191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownDriver</span>
+                <span class="method-start">71131 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
