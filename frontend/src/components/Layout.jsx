@@ -34,9 +34,6 @@ export default function Layout() {
             <Link to="/checkout" className="nav-link-button" style={{ fontFamily: '"Press Start 2P", monospace', fontSize: '0.8rem', padding: '0.75rem 1rem', textDecoration: 'none' }}>
               CHECKOUT
             </Link>
-            <Link to="/payment" className="nav-link-button" style={{ fontFamily: '"Press Start 2P", monospace', fontSize: '0.8rem', padding: '0.75rem 1rem', textDecoration: 'none' }}>
-              PAYMENT
-            </Link>
             <Link to="/orders" className="nav-link-button" style={{ fontFamily: '"Press Start 2P", monospace', fontSize: '0.8rem', padding: '0.75rem 1rem', textDecoration: 'none' }} aria-label={`Orders: ${orders.length}`}>
               ORDERS [{orders.length}]
             </Link>
