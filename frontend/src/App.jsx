@@ -1,12 +1,35 @@
 import React from 'react';
-import LandingPage from './LandingPage';
-import './App.css'; // Keep App.css for container if needed, but LandingPage handles its own layout
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AppProvider } from './context/AppContext.jsx';
+import Layout from './components/Layout';
+import HomePage from './pages/HomePage';
+import LoginPage from './pages/LoginPage';
+import ProductsPage from './pages/ProductsPage';
+import CartPage from './pages/CartPage';
+import CheckoutPage from './pages/CheckoutPage';
+import PaymentPage from './pages/PaymentPage';
+import OrdersPage from './pages/OrdersPage';
+import './App.css';
 
 function App() {
   return (
-    <div className="app-container">
-      <LandingPage />
-    </div>
+    <BrowserRouter>
+      <AppProvider>
+        <div className="app-container">
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<HomePage />} />
+              <Route path="login" element={<LoginPage />} />
+              <Route path="products" element={<ProductsPage />} />
+              <Route path="cart" element={<CartPage />} />
+              <Route path="checkout" element={<CheckoutPage />} />
+              <Route path="payment" element={<PaymentPage />} />
+              <Route path="orders" element={<OrdersPage />} />
+            </Route>
+          </Routes>
+        </div>
+      </AppProvider>
+    </BrowserRouter>
   );
 }
 

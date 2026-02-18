@@ -1,5 +1,6 @@
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+/* Local fonts (bundled, font-display: swap) */
+@import '@fontsource/vt323/latin-400.css';
+@import '@fontsource/press-start-2p/latin-400.css';
 
 :root {
   /* Color Palette */
@@ -60,6 +61,32 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Nav link styled as button (same as header buttons) */
+.nav-link-button {
+  display: inline-block;
+  font-family: 'Press Start 2P', monospace;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: var(--border-width) var(--border-style) var(--border-color);
+  padding: 0.75rem 1rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border-radius: 0;
+  box-shadow: var(--hard-shadow);
+  transition: all 0.1s;
+}
+.nav-link-button:hover {
+  text-decoration: none;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transform: translate(-1px, -1px);
+  box-shadow: 6px 6px 0px 0px var(--border-color);
+}
+.nav-link-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px var(--border-color);
+}
+
 /* UI Elements */
 .retro-container {
   border: var(--border-width) var(--border-style) var(--border-color);
@@ -113,6 +140,15 @@ input {
 
 input:focus {
   background-color: #f0f0f0;
+}
+
+/* Accessibility: visible focus for keyboard navigation */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--text-color);
+  outline-offset: 2px;
 }
 
 /* Layout Utilities */
