@@ -21,4 +21,4 @@ mvn spring-boot:run
 
 ## TNG + Selenium Tests (Frontend)
 
-![Test Screenshot](37_tcs.png)
+![Test Screenshot](tng+sel_1/37_tcs.png)
