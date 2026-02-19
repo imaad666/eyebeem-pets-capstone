@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.515" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="85.372" tests="41" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="webdriver.chrome.driver" value="/Users/imaad/.cache/selenium/chromedriver/mac-arm64/143.0.7499.192/chromedriver"/>
@@ -14,10 +14,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260219114854858_3.jar /Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire 2026-02-19T11-48-54_798-jvmRun1 surefire-20260219114854858_1tmp surefire_0-20260219114854858_2tmp"/>
+    <property name="sun.java.command" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260219115201005_3.jar /Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire 2026-02-19T11-52-00_956-jvmRun1 surefire-20260219115201005_1tmp surefire_0-20260219115201005_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="ProductImagesHomePageTest,ProductImagesProductsPageTest,ProductImagesAltTextTest,ProductImagesLoadTest"/>
     <property name="surefire.test.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/test-classes:/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/classes:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar:/Users/imaad/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/imaad/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/imaad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/imaad/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar:/Users/imaad/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar:/Users/imaad/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/imaad/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/imaad/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/imaad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/imaad/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.3/webdrivermanager-6.3.3.jar:/Users/imaad/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/imaad/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java/3.6.0/docker-java-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-core/3.6.0/docker-java-core-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-api/3.6.0/docker-java-api-3.6.0.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/imaad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.6.0/docker-java-transport-httpclient5-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport/3.6.0/docker-java-transport-3.6.0.jar:/Users/imaad/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/imaad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/imaad/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/imaad/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/imaad"/>
@@ -32,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260219114854858_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260219115201005_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="24.0.2+12-54"/>
@@ -60,13 +59,50 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="productImagesHaveAltText" classname="com.eyebeem.tests.images.ProductImagesAltTextTest" time="0.767">
+  <testcase name="homePageTitleContainsAppName" classname="com.eyebeem.tests.home.HomePageTitleTest" time="0.206">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="homePageDisplaysProductImages" classname="com.eyebeem.tests.images.ProductImagesHomePageTest" time="0.661"/>
-  <testcase name="productImagesLoadWithValidDimensions" classname="com.eyebeem.tests.images.ProductImagesLoadTest" time="0.646"/>
-  <testcase name="productsPageDisplaysProductImages" classname="com.eyebeem.tests.images.ProductImagesProductsPageTest" time="0.649"/>
+  <testcase name="heroSectionDisplaysHeadingAndTagline" classname="com.eyebeem.tests.home.HomePageHeroTest" time="0.68"/>
+  <testcase name="navbarContainsAllNavigationLinks" classname="com.eyebeem.tests.home.HomePageNavbarTest" time="0.717"/>
+  <testcase name="footerDisplaysCopyrightText" classname="com.eyebeem.tests.home.HomePageFooterTest" time="0.646"/>
+  <testcase name="homePageShowsProductCardsWithAddToCart" classname="com.eyebeem.tests.home.HomePageProductsGridTest" time="0.643"/>
+  <testcase name="logoLinkNavigatesToHome" classname="com.eyebeem.tests.home.HomePageLogoLinkTest" time="0.693"/>
+  <testcase name="loginFormDisplaysNameAndEmailFields" classname="com.eyebeem.tests.login.LoginPageFormTest" time="0.699"/>
+  <testcase name="loginFormAcceptsValidCredentials" classname="com.eyebeem.tests.login.LoginPageSubmitTest" time="0.924"/>
+  <testcase name="logoutButtonReturnsToLoginForm" classname="com.eyebeem.tests.login.LoginPageLogoutTest" time="0.902"/>
+  <testcase name="loginPageUrlAndTitleAreCorrect" classname="com.eyebeem.tests.login.LoginPageNavigationTest" time="0.651"/>
+  <testcase name="loginFormHasNameAndEmailLabels" classname="com.eyebeem.tests.login.LoginPageFormLabelsTest" time="0.617"/>
+  <testcase name="productsPageDisplaysAllProducts" classname="com.eyebeem.tests.products.ProductsPageDisplayTest" time="0.682"/>
+  <testcase name="productSearchFiltersResults" classname="com.eyebeem.tests.products.ProductsPageSearchTest" time="1.032"/>
+  <testcase name="productTypeFilterFiltersByType" classname="com.eyebeem.tests.products.ProductsPageFilterTest" time="0.709"/>
+  <testcase name="addToCartButtonAddsProductToCart" classname="com.eyebeem.tests.products.ProductsPageAddToCartTest" time="0.693"/>
+  <testcase name="productsPageHasSearchInput" classname="com.eyebeem.tests.products.ProductsPageSearchInputTest" time="0.629"/>
+  <testcase name="productsPageHasTypeFilterDropdown" classname="com.eyebeem.tests.products.ProductsPageFilterDropdownTest" time="0.637"/>
+  <testcase name="cartPageShowsEmptyMessageWhenCartIsEmpty" classname="com.eyebeem.tests.cart.CartPageEmptyTest" time="0.691"/>
+  <testcase name="cartPageDisplaysItemsWhenCartHasProducts" classname="com.eyebeem.tests.cart.CartPageItemsTest" time="0.738"/>
+  <testcase name="cartPageDisplaysCorrectTotal" classname="com.eyebeem.tests.cart.CartPageTotalTest" time="0.769"/>
+  <testcase name="checkoutButtonNavigatesToCheckoutPage" classname="com.eyebeem.tests.cart.CartPageCheckoutTest" time="0.798"/>
+  <testcase name="clearCartButtonEmptiesCart" classname="com.eyebeem.tests.cart.CartPageClearButtonTest" time="0.787"/>
+  <testcase name="shopProductsLinkNavigatesToProducts" classname="com.eyebeem.tests.cart.CartPageShopProductsLinkTest" time="0.727"/>
+  <testcase name="checkoutPageAddressFormAcceptsValidInput" classname="com.eyebeem.tests.checkout.CheckoutPageAddressTest" time="1.041"/>
+  <testcase name="checkoutPaymentStepDisplaysPaymentOptions" classname="com.eyebeem.tests.checkout.CheckoutPagePaymentTest" time="1.537"/>
+  <testcase name="checkoutCompletesOrderSuccessfully" classname="com.eyebeem.tests.checkout.CheckoutPageOrderTest" time="1.609"/>
+  <testcase name="checkoutShowsEmptyMessageWhenCartEmpty" classname="com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest" time="0.63"/>
+  <testcase name="backToCartLinkNavigatesToCart" classname="com.eyebeem.tests.checkout.CheckoutPageBackToCartTest" time="1.384"/>
+  <testcase name="ordersPageShowsEmptyMessageWhenNoOrders" classname="com.eyebeem.tests.orders.OrdersPageEmptyTest" time="0.666"/>
+  <testcase name="ordersPageDisplaysOrderListAfterOrderIsPlaced" classname="com.eyebeem.tests.orders.OrdersPageListTest" time="2.647"/>
+  <testcase name="ordersPageDisplaysOrderDetailsCorrectly" classname="com.eyebeem.tests.orders.OrdersPageDetailsTest" time="3.205"/>
+  <testcase name="shopProductsLinkNavigatesToProducts" classname="com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest" time="0.732"/>
+  <testcase name="headerIsVisibleOnHomePage" classname="com.eyebeem.tests.layout.LayoutHeaderTest" time="0.639"/>
+  <testcase name="footerIsVisibleOnHomePage" classname="com.eyebeem.tests.layout.LayoutFooterTest" time="0.633"/>
+  <testcase name="productsLinkNavigatesToProductsPage" classname="com.eyebeem.tests.navigation.NavigationProductsLinkTest" time="0.687"/>
+  <testcase name="cartLinkNavigatesToCartPage" classname="com.eyebeem.tests.navigation.NavigationCartLinkTest" time="0.675"/>
+  <testcase name="ordersLinkNavigatesToOrdersPage" classname="com.eyebeem.tests.navigation.NavigationOrdersLinkTest" time="0.687"/>
+  <testcase name="homePageDisplaysProductImages" classname="com.eyebeem.tests.images.ProductImagesHomePageTest" time="0.635"/>
+  <testcase name="productsPageDisplaysProductImages" classname="com.eyebeem.tests.images.ProductImagesProductsPageTest" time="0.623"/>
+  <testcase name="productImagesHaveAltText" classname="com.eyebeem.tests.images.ProductImagesAltTextTest" time="0.634"/>
+  <testcase name="productImagesLoadWithValidDimensions" classname="com.eyebeem.tests.images.ProductImagesLoadTest" time="0.642"/>
 </testsuite>
