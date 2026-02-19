@@ -2,16 +2,12 @@ import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/useApp';
 import { products } from '../data/products';
 
-const productPlaceholderStyle = {
+const productImageStyle = {
   height: '200px',
-  backgroundColor: '#e0e0e0',
   border: '2px solid black',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundImage: 'radial-gradient(#000 1px, transparent 0)',
-  backgroundSize: '4px 4px',
-  opacity: 0.5,
+  objectFit: 'cover',
+  width: '100%',
+  display: 'block',
 };
 
 export default function ProductsPage() {
@@ -49,8 +45,8 @@ export default function ProductsPage() {
         ) : (
           filtered.map((product) => (
             <div key={product.id} className="retro-container" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <div style={productPlaceholderStyle}>
-                <span style={{ fontFamily: '"Press Start 2P"', fontSize: '3rem' }}>?</span>
+              <div style={{ height: '200px', overflow: 'hidden', border: '2px solid black' }}>
+                <img src={product.image} alt={product.name} style={productImageStyle} />
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>
