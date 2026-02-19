@@ -35,4 +35,5 @@ com/eyebeem/tests/login/LoginPageLogoutTest.class
 com/eyebeem/tests/cart/CartPageCheckoutTest.class
 com/eyebeem/tests/products/ProductsPageDisplayTest.class
 com/eyebeem/tests/checkout/CheckoutPagePaymentTest.class
+com/eyebeem/tests/images/ProductImagesLoadTest.class
 com/eyebeem/tests/login/LoginPageSubmitTest.class

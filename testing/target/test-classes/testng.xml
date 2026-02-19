@@ -69,5 +69,13 @@
             <class name="com.eyebeem.tests.navigation.NavigationOrdersLinkTest"/>
         </classes>
     </test>
+    <test name="Product Images Tests">
+        <classes>
+            <class name="com.eyebeem.tests.images.ProductImagesHomePageTest"/>
+            <class name="com.eyebeem.tests.images.ProductImagesProductsPageTest"/>
+            <class name="com.eyebeem.tests.images.ProductImagesAltTextTest"/>
+            <class name="com.eyebeem.tests.images.ProductImagesLoadTest"/>
+        </classes>
+    </test>
 </suite>
 

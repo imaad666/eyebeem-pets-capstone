@@ -1,543 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-19T10:08:05 IST" name="EYE BEE M Pets UI Suite" finished-at="2026-02-19T10:09:22 IST" duration-ms="76803">
+  <suite started-at="2026-02-19T11:48:55 IST" name="Surefire suite" finished-at="2026-02-19T11:49:05 IST" duration-ms="10295">
     <groups>
     </groups>
-    <test started-at="2026-02-19T10:08:05 IST" name="Home Page Tests" finished-at="2026-02-19T10:08:17 IST" duration-ms="11606">
-      <class name="com.eyebeem.tests.home.HomePageLogoLinkTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageLogoLinkTest@3c130745]" started-at="2026-02-19T10:08:15 IST" name="setUpDriver" finished-at="2026-02-19T10:08:16 IST" duration-ms="1064" status="PASS">
+    <test started-at="2026-02-19T11:48:55 IST" name="Surefire test" finished-at="2026-02-19T11:49:05 IST" duration-ms="10295">
+      <class name="com.eyebeem.tests.images.ProductImagesAltTextTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesAltTextTest@3c153a1]" started-at="2026-02-19T11:48:55 IST" name="setUpDriver" finished-at="2026-02-19T11:48:58 IST" duration-ms="3826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="logoLinkNavigatesToHome()[pri:0, instance:com.eyebeem.tests.home.HomePageLogoLinkTest@3c130745]" started-at="2026-02-19T10:08:16 IST" name="logoLinkNavigatesToHome" finished-at="2026-02-19T10:08:17 IST" duration-ms="726" status="PASS">
+        <test-method signature="productImagesHaveAltText()[pri:0, instance:com.eyebeem.tests.images.ProductImagesAltTextTest@3c153a1]" started-at="2026-02-19T11:48:59 IST" name="productImagesHaveAltText" finished-at="2026-02-19T11:48:59 IST" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoLinkNavigatesToHome -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageLogoLinkTest@3c130745]" started-at="2026-02-19T10:08:17 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:17 IST" duration-ms="85" status="PASS">
+        </test-method> <!-- productImagesHaveAltText -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesAltTextTest@3c153a1]" started-at="2026-02-19T11:48:59 IST" name="tearDownDriver" finished-at="2026-02-19T11:48:59 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.home.HomePageLogoLinkTest -->
-      <class name="com.eyebeem.tests.home.HomePageProductsGridTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageProductsGridTest@61230f6a]" started-at="2026-02-19T10:08:13 IST" name="setUpDriver" finished-at="2026-02-19T10:08:14 IST" duration-ms="962" status="PASS">
+      </class> <!-- com.eyebeem.tests.images.ProductImagesAltTextTest -->
+      <class name="com.eyebeem.tests.images.ProductImagesLoadTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesLoadTest@5db45159]" started-at="2026-02-19T11:49:01 IST" name="setUpDriver" finished-at="2026-02-19T11:49:02 IST" duration-ms="1096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="homePageShowsProductCardsWithAddToCart()[pri:0, instance:com.eyebeem.tests.home.HomePageProductsGridTest@61230f6a]" started-at="2026-02-19T10:08:14 IST" name="homePageShowsProductCardsWithAddToCart" finished-at="2026-02-19T10:08:15 IST" duration-ms="676" status="PASS">
+        <test-method signature="productImagesLoadWithValidDimensions()[pri:0, instance:com.eyebeem.tests.images.ProductImagesLoadTest@5db45159]" started-at="2026-02-19T11:49:02 IST" name="productImagesLoadWithValidDimensions" finished-at="2026-02-19T11:49:03 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageShowsProductCardsWithAddToCart -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageProductsGridTest@61230f6a]" started-at="2026-02-19T10:08:15 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:15 IST" duration-ms="87" status="PASS">
+        </test-method> <!-- productImagesLoadWithValidDimensions -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesLoadTest@5db45159]" started-at="2026-02-19T11:49:03 IST" name="tearDownDriver" finished-at="2026-02-19T11:49:03 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.home.HomePageProductsGridTest -->
-      <class name="com.eyebeem.tests.home.HomePageTitleTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageTitleTest@3ba9ad43]" started-at="2026-02-19T10:08:05 IST" name="setUpDriver" finished-at="2026-02-19T10:08:07 IST" duration-ms="2043" status="PASS">
+      </class> <!-- com.eyebeem.tests.images.ProductImagesLoadTest -->
+      <class name="com.eyebeem.tests.images.ProductImagesProductsPageTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesProductsPageTest@6107227e]" started-at="2026-02-19T11:49:03 IST" name="setUpDriver" finished-at="2026-02-19T11:49:04 IST" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="homePageTitleContainsAppName()[pri:0, instance:com.eyebeem.tests.home.HomePageTitleTest@3ba9ad43]" started-at="2026-02-19T10:08:07 IST" name="homePageTitleContainsAppName" finished-at="2026-02-19T10:08:08 IST" duration-ms="170" status="PASS">
+        <test-method signature="productsPageDisplaysProductImages()[pri:0, instance:com.eyebeem.tests.images.ProductImagesProductsPageTest@6107227e]" started-at="2026-02-19T11:49:04 IST" name="productsPageDisplaysProductImages" finished-at="2026-02-19T11:49:05 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageTitleContainsAppName -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageTitleTest@3ba9ad43]" started-at="2026-02-19T10:08:08 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:08 IST" duration-ms="97" status="PASS">
+        </test-method> <!-- productsPageDisplaysProductImages -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesProductsPageTest@6107227e]" started-at="2026-02-19T11:49:05 IST" name="tearDownDriver" finished-at="2026-02-19T11:49:05 IST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.home.HomePageTitleTest -->
-      <class name="com.eyebeem.tests.home.HomePageNavbarTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageNavbarTest@3c419631]" started-at="2026-02-19T10:08:10 IST" name="setUpDriver" finished-at="2026-02-19T10:08:11 IST" duration-ms="992" status="PASS">
+      </class> <!-- com.eyebeem.tests.images.ProductImagesProductsPageTest -->
+      <class name="com.eyebeem.tests.images.ProductImagesHomePageTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesHomePageTest@2b6856dd]" started-at="2026-02-19T11:48:59 IST" name="setUpDriver" finished-at="2026-02-19T11:49:01 IST" duration-ms="1151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="navbarContainsAllNavigationLinks()[pri:0, instance:com.eyebeem.tests.home.HomePageNavbarTest@3c419631]" started-at="2026-02-19T10:08:11 IST" name="navbarContainsAllNavigationLinks" finished-at="2026-02-19T10:08:11 IST" duration-ms="746" status="PASS">
+        <test-method signature="homePageDisplaysProductImages()[pri:0, instance:com.eyebeem.tests.images.ProductImagesHomePageTest@2b6856dd]" started-at="2026-02-19T11:49:01 IST" name="homePageDisplaysProductImages" finished-at="2026-02-19T11:49:01 IST" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navbarContainsAllNavigationLinks -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageNavbarTest@3c419631]" started-at="2026-02-19T10:08:11 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:11 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.home.HomePageNavbarTest -->
-      <class name="com.eyebeem.tests.home.HomePageFooterTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageFooterTest@418e7838]" started-at="2026-02-19T10:08:12 IST" name="setUpDriver" finished-at="2026-02-19T10:08:13 IST" duration-ms="1110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="footerDisplaysCopyrightText()[pri:0, instance:com.eyebeem.tests.home.HomePageFooterTest@418e7838]" started-at="2026-02-19T10:08:13 IST" name="footerDisplaysCopyrightText" finished-at="2026-02-19T10:08:13 IST" duration-ms="682" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footerDisplaysCopyrightText -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageFooterTest@418e7838]" started-at="2026-02-19T10:08:13 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:13 IST" duration-ms="91" status="PASS">
+        </test-method> <!-- homePageDisplaysProductImages -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.images.ProductImagesHomePageTest@2b6856dd]" started-at="2026-02-19T11:49:01 IST" name="tearDownDriver" finished-at="2026-02-19T11:49:01 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.home.HomePageFooterTest -->
-      <class name="com.eyebeem.tests.home.HomePageHeroTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageHeroTest@4a22f9e2]" started-at="2026-02-19T10:08:08 IST" name="setUpDriver" finished-at="2026-02-19T10:08:09 IST" duration-ms="1192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="heroSectionDisplaysHeadingAndTagline()[pri:0, instance:com.eyebeem.tests.home.HomePageHeroTest@4a22f9e2]" started-at="2026-02-19T10:08:09 IST" name="heroSectionDisplaysHeadingAndTagline" finished-at="2026-02-19T10:08:10 IST" duration-ms="680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- heroSectionDisplaysHeadingAndTagline -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.home.HomePageHeroTest@4a22f9e2]" started-at="2026-02-19T10:08:10 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:10 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.home.HomePageHeroTest -->
-    </test> <!-- Home Page Tests -->
-    <test started-at="2026-02-19T10:08:17 IST" name="Login Page Tests" finished-at="2026-02-19T10:08:26 IST" duration-ms="9490">
-      <class name="com.eyebeem.tests.login.LoginPageNavigationTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageNavigationTest@68999068]" started-at="2026-02-19T10:08:23 IST" name="setUpDriver" finished-at="2026-02-19T10:08:24 IST" duration-ms="1131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="loginPageUrlAndTitleAreCorrect()[pri:0, instance:com.eyebeem.tests.login.LoginPageNavigationTest@68999068]" started-at="2026-02-19T10:08:24 IST" name="loginPageUrlAndTitleAreCorrect" finished-at="2026-02-19T10:08:25 IST" duration-ms="647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageUrlAndTitleAreCorrect -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageNavigationTest@68999068]" started-at="2026-02-19T10:08:25 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:25 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageNavigationTest -->
-      <class name="com.eyebeem.tests.login.LoginPageFormTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormTest@2c767a52]" started-at="2026-02-19T10:08:17 IST" name="setUpDriver" finished-at="2026-02-19T10:08:18 IST" duration-ms="977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="loginFormDisplaysNameAndEmailFields()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormTest@2c767a52]" started-at="2026-02-19T10:08:18 IST" name="loginFormDisplaysNameAndEmailFields" finished-at="2026-02-19T10:08:19 IST" duration-ms="706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFormDisplaysNameAndEmailFields -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormTest@2c767a52]" started-at="2026-02-19T10:08:19 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:19 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageFormTest -->
-      <class name="com.eyebeem.tests.login.LoginPageFormLabelsTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormLabelsTest@7722c3c3]" started-at="2026-02-19T10:08:25 IST" name="setUpDriver" finished-at="2026-02-19T10:08:26 IST" duration-ms="969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="loginFormHasNameAndEmailLabels()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormLabelsTest@7722c3c3]" started-at="2026-02-19T10:08:26 IST" name="loginFormHasNameAndEmailLabels" finished-at="2026-02-19T10:08:26 IST" duration-ms="649" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFormHasNameAndEmailLabels -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormLabelsTest@7722c3c3]" started-at="2026-02-19T10:08:26 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:26 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageFormLabelsTest -->
-      <class name="com.eyebeem.tests.login.LoginPageLogoutTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageLogoutTest@708f5957]" started-at="2026-02-19T10:08:21 IST" name="setUpDriver" finished-at="2026-02-19T10:08:22 IST" duration-ms="980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="logoutButtonReturnsToLoginForm()[pri:0, instance:com.eyebeem.tests.login.LoginPageLogoutTest@708f5957]" started-at="2026-02-19T10:08:22 IST" name="logoutButtonReturnsToLoginForm" finished-at="2026-02-19T10:08:23 IST" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutButtonReturnsToLoginForm -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageLogoutTest@708f5957]" started-at="2026-02-19T10:08:23 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:23 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageLogoutTest -->
-      <class name="com.eyebeem.tests.login.LoginPageSubmitTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageSubmitTest@619713e5]" started-at="2026-02-19T10:08:19 IST" name="setUpDriver" finished-at="2026-02-19T10:08:20 IST" duration-ms="1119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="loginFormAcceptsValidCredentials()[pri:0, instance:com.eyebeem.tests.login.LoginPageSubmitTest@619713e5]" started-at="2026-02-19T10:08:20 IST" name="loginFormAcceptsValidCredentials" finished-at="2026-02-19T10:08:21 IST" duration-ms="932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFormAcceptsValidCredentials -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageSubmitTest@619713e5]" started-at="2026-02-19T10:08:21 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:21 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageSubmitTest -->
-    </test> <!-- Login Page Tests -->
-    <test started-at="2026-02-19T10:08:26 IST" name="Products Page Tests" finished-at="2026-02-19T10:08:38 IST" duration-ms="11215">
-      <class name="com.eyebeem.tests.products.ProductsPageSearchInputTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageSearchInputTest@393671df]" started-at="2026-02-19T10:08:34 IST" name="setUpDriver" finished-at="2026-02-19T10:08:35 IST" duration-ms="1085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="productsPageHasSearchInput()[pri:0, instance:com.eyebeem.tests.products.ProductsPageSearchInputTest@393671df]" started-at="2026-02-19T10:08:35 IST" name="productsPageHasSearchInput" finished-at="2026-02-19T10:08:36 IST" duration-ms="647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productsPageHasSearchInput -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageSearchInputTest@393671df]" started-at="2026-02-19T10:08:36 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:36 IST" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.products.ProductsPageSearchInputTest -->
-      <class name="com.eyebeem.tests.products.ProductsPageFilterDropdownTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageFilterDropdownTest@56620197]" started-at="2026-02-19T10:08:36 IST" name="setUpDriver" finished-at="2026-02-19T10:08:37 IST" duration-ms="974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="productsPageHasTypeFilterDropdown()[pri:0, instance:com.eyebeem.tests.products.ProductsPageFilterDropdownTest@56620197]" started-at="2026-02-19T10:08:37 IST" name="productsPageHasTypeFilterDropdown" finished-at="2026-02-19T10:08:38 IST" duration-ms="653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productsPageHasTypeFilterDropdown -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageFilterDropdownTest@56620197]" started-at="2026-02-19T10:08:38 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:38 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.products.ProductsPageFilterDropdownTest -->
-      <class name="com.eyebeem.tests.products.ProductsPageAddToCartTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageAddToCartTest@20ce78ec]" started-at="2026-02-19T10:08:32 IST" name="setUpDriver" finished-at="2026-02-19T10:08:33 IST" duration-ms="979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="addToCartButtonAddsProductToCart()[pri:0, instance:com.eyebeem.tests.products.ProductsPageAddToCartTest@20ce78ec]" started-at="2026-02-19T10:08:33 IST" name="addToCartButtonAddsProductToCart" finished-at="2026-02-19T10:08:34 IST" duration-ms="727" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCartButtonAddsProductToCart -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageAddToCartTest@20ce78ec]" started-at="2026-02-19T10:08:34 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:34 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.products.ProductsPageAddToCartTest -->
-      <class name="com.eyebeem.tests.products.ProductsPageSearchTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageSearchTest@1dde4cb2]" started-at="2026-02-19T10:08:28 IST" name="setUpDriver" finished-at="2026-02-19T10:08:29 IST" duration-ms="979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="productSearchFiltersResults()[pri:0, instance:com.eyebeem.tests.products.ProductsPageSearchTest@1dde4cb2]" started-at="2026-02-19T10:08:29 IST" name="productSearchFiltersResults" finished-at="2026-02-19T10:08:30 IST" duration-ms="1055" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productSearchFiltersResults -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageSearchTest@1dde4cb2]" started-at="2026-02-19T10:08:30 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:31 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.products.ProductsPageSearchTest -->
-      <class name="com.eyebeem.tests.products.ProductsPageFilterTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageFilterTest@7714e963]" started-at="2026-02-19T10:08:31 IST" name="setUpDriver" finished-at="2026-02-19T10:08:32 IST" duration-ms="1036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="productTypeFilterFiltersByType()[pri:0, instance:com.eyebeem.tests.products.ProductsPageFilterTest@7714e963]" started-at="2026-02-19T10:08:32 IST" name="productTypeFilterFiltersByType" finished-at="2026-02-19T10:08:32 IST" duration-ms="734" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productTypeFilterFiltersByType -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageFilterTest@7714e963]" started-at="2026-02-19T10:08:32 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:32 IST" duration-ms="95" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.products.ProductsPageFilterTest -->
-      <class name="com.eyebeem.tests.products.ProductsPageDisplayTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageDisplayTest@3835c46]" started-at="2026-02-19T10:08:26 IST" name="setUpDriver" finished-at="2026-02-19T10:08:28 IST" duration-ms="1086" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="productsPageDisplaysAllProducts()[pri:0, instance:com.eyebeem.tests.products.ProductsPageDisplayTest@3835c46]" started-at="2026-02-19T10:08:28 IST" name="productsPageDisplaysAllProducts" finished-at="2026-02-19T10:08:28 IST" duration-ms="706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productsPageDisplaysAllProducts -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.products.ProductsPageDisplayTest@3835c46]" started-at="2026-02-19T10:08:28 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:28 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.products.ProductsPageDisplayTest -->
-    </test> <!-- Products Page Tests -->
-    <test started-at="2026-02-19T10:08:38 IST" name="Cart Page Tests" finished-at="2026-02-19T10:08:49 IST" duration-ms="11579">
-      <class name="com.eyebeem.tests.cart.CartPageEmptyTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageEmptyTest@402bba4f]" started-at="2026-02-19T10:08:38 IST" name="setUpDriver" finished-at="2026-02-19T10:08:39 IST" duration-ms="1099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="cartPageShowsEmptyMessageWhenCartIsEmpty()[pri:0, instance:com.eyebeem.tests.cart.CartPageEmptyTest@402bba4f]" started-at="2026-02-19T10:08:39 IST" name="cartPageShowsEmptyMessageWhenCartIsEmpty" finished-at="2026-02-19T10:08:39 IST" duration-ms="677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartPageShowsEmptyMessageWhenCartIsEmpty -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageEmptyTest@402bba4f]" started-at="2026-02-19T10:08:39 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:40 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.cart.CartPageEmptyTest -->
-      <class name="com.eyebeem.tests.cart.CartPageShopProductsLinkTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageShopProductsLinkTest@dbf57b3]" started-at="2026-02-19T10:08:47 IST" name="setUpDriver" finished-at="2026-02-19T10:08:48 IST" duration-ms="979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="shopProductsLinkNavigatesToProducts()[pri:0, instance:com.eyebeem.tests.cart.CartPageShopProductsLinkTest@dbf57b3]" started-at="2026-02-19T10:08:48 IST" name="shopProductsLinkNavigatesToProducts" finished-at="2026-02-19T10:08:49 IST" duration-ms="730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shopProductsLinkNavigatesToProducts -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageShopProductsLinkTest@dbf57b3]" started-at="2026-02-19T10:08:49 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:49 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.cart.CartPageShopProductsLinkTest -->
-      <class name="com.eyebeem.tests.cart.CartPageClearButtonTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageClearButtonTest@123ef382]" started-at="2026-02-19T10:08:45 IST" name="setUpDriver" finished-at="2026-02-19T10:08:47 IST" duration-ms="1099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="clearCartButtonEmptiesCart()[pri:0, instance:com.eyebeem.tests.cart.CartPageClearButtonTest@123ef382]" started-at="2026-02-19T10:08:47 IST" name="clearCartButtonEmptiesCart" finished-at="2026-02-19T10:08:47 IST" duration-ms="856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearCartButtonEmptiesCart -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageClearButtonTest@123ef382]" started-at="2026-02-19T10:08:47 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:47 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.cart.CartPageClearButtonTest -->
-      <class name="com.eyebeem.tests.cart.CartPageTotalTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageTotalTest@59fd97a8]" started-at="2026-02-19T10:08:41 IST" name="setUpDriver" finished-at="2026-02-19T10:08:43 IST" duration-ms="1094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="cartPageDisplaysCorrectTotal()[pri:0, instance:com.eyebeem.tests.cart.CartPageTotalTest@59fd97a8]" started-at="2026-02-19T10:08:43 IST" name="cartPageDisplaysCorrectTotal" finished-at="2026-02-19T10:08:43 IST" duration-ms="814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartPageDisplaysCorrectTotal -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageTotalTest@59fd97a8]" started-at="2026-02-19T10:08:43 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:43 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.cart.CartPageTotalTest -->
-      <class name="com.eyebeem.tests.cart.CartPageCheckoutTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageCheckoutTest@f5ac9e4]" started-at="2026-02-19T10:08:44 IST" name="setUpDriver" finished-at="2026-02-19T10:08:44 IST" duration-ms="980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="checkoutButtonNavigatesToCheckoutPage()[pri:0, instance:com.eyebeem.tests.cart.CartPageCheckoutTest@f5ac9e4]" started-at="2026-02-19T10:08:44 IST" name="checkoutButtonNavigatesToCheckoutPage" finished-at="2026-02-19T10:08:45 IST" duration-ms="878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutButtonNavigatesToCheckoutPage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageCheckoutTest@f5ac9e4]" started-at="2026-02-19T10:08:45 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:45 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.cart.CartPageCheckoutTest -->
-      <class name="com.eyebeem.tests.cart.CartPageItemsTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageItemsTest@795cd85e]" started-at="2026-02-19T10:08:40 IST" name="setUpDriver" finished-at="2026-02-19T10:08:41 IST" duration-ms="1015" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="cartPageDisplaysItemsWhenCartHasProducts()[pri:0, instance:com.eyebeem.tests.cart.CartPageItemsTest@795cd85e]" started-at="2026-02-19T10:08:41 IST" name="cartPageDisplaysItemsWhenCartHasProducts" finished-at="2026-02-19T10:08:41 IST" duration-ms="813" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartPageDisplaysItemsWhenCartHasProducts -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.cart.CartPageItemsTest@795cd85e]" started-at="2026-02-19T10:08:41 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:41 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.cart.CartPageItemsTest -->
-    </test> <!-- Cart Page Tests -->
-    <test started-at="2026-02-19T10:08:49 IST" name="Checkout Page Tests" finished-at="2026-02-19T10:09:01 IST" duration-ms="11750">
-      <class name="com.eyebeem.tests.checkout.CheckoutPageOrderTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageOrderTest@5fdcaa40]" started-at="2026-02-19T10:08:54 IST" name="setUpDriver" finished-at="2026-02-19T10:08:55 IST" duration-ms="984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="checkoutCompletesOrderSuccessfully()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageOrderTest@5fdcaa40]" started-at="2026-02-19T10:08:55 IST" name="checkoutCompletesOrderSuccessfully" finished-at="2026-02-19T10:08:57 IST" duration-ms="1726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutCompletesOrderSuccessfully -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageOrderTest@5fdcaa40]" started-at="2026-02-19T10:08:57 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:57 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.checkout.CheckoutPageOrderTest -->
-      <class name="com.eyebeem.tests.checkout.CheckoutPageBackToCartTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageBackToCartTest@5e0826e7]" started-at="2026-02-19T10:08:58 IST" name="setUpDriver" finished-at="2026-02-19T10:08:59 IST" duration-ms="999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="backToCartLinkNavigatesToCart()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageBackToCartTest@5e0826e7]" started-at="2026-02-19T10:08:59 IST" name="backToCartLinkNavigatesToCart" finished-at="2026-02-19T10:09:01 IST" duration-ms="1483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToCartLinkNavigatesToCart -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageBackToCartTest@5e0826e7]" started-at="2026-02-19T10:09:01 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:01 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.checkout.CheckoutPageBackToCartTest -->
-      <class name="com.eyebeem.tests.checkout.CheckoutPagePaymentTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPagePaymentTest@15ff3e9e]" started-at="2026-02-19T10:08:52 IST" name="setUpDriver" finished-at="2026-02-19T10:08:53 IST" duration-ms="1063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="checkoutPaymentStepDisplaysPaymentOptions()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPagePaymentTest@15ff3e9e]" started-at="2026-02-19T10:08:53 IST" name="checkoutPaymentStepDisplaysPaymentOptions" finished-at="2026-02-19T10:08:54 IST" duration-ms="1122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutPaymentStepDisplaysPaymentOptions -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPagePaymentTest@15ff3e9e]" started-at="2026-02-19T10:08:54 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:54 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.checkout.CheckoutPagePaymentTest -->
-      <class name="com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest@6dc17b83]" started-at="2026-02-19T10:08:57 IST" name="setUpDriver" finished-at="2026-02-19T10:08:58 IST" duration-ms="1088" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="checkoutShowsEmptyMessageWhenCartEmpty()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest@6dc17b83]" started-at="2026-02-19T10:08:58 IST" name="checkoutShowsEmptyMessageWhenCartEmpty" finished-at="2026-02-19T10:08:58 IST" duration-ms="634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutShowsEmptyMessageWhenCartEmpty -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest@6dc17b83]" started-at="2026-02-19T10:08:58 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:58 IST" duration-ms="94" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest -->
-      <class name="com.eyebeem.tests.checkout.CheckoutPageAddressTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageAddressTest@7fa98a66]" started-at="2026-02-19T10:08:49 IST" name="setUpDriver" finished-at="2026-02-19T10:08:50 IST" duration-ms="1093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="checkoutPageAddressFormAcceptsValidInput()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageAddressTest@7fa98a66]" started-at="2026-02-19T10:08:50 IST" name="checkoutPageAddressFormAcceptsValidInput" finished-at="2026-02-19T10:08:51 IST" duration-ms="1097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutPageAddressFormAcceptsValidInput -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.checkout.CheckoutPageAddressTest@7fa98a66]" started-at="2026-02-19T10:08:51 IST" name="tearDownDriver" finished-at="2026-02-19T10:08:52 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.checkout.CheckoutPageAddressTest -->
-    </test> <!-- Checkout Page Tests -->
-    <test started-at="2026-02-19T10:09:01 IST" name="Orders Page Tests" finished-at="2026-02-19T10:09:13 IST" duration-ms="11958">
-      <class name="com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest@5af3afd9]" started-at="2026-02-19T10:09:11 IST" name="setUpDriver" finished-at="2026-02-19T10:09:12 IST" duration-ms="977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="shopProductsLinkNavigatesToProducts()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest@5af3afd9]" started-at="2026-02-19T10:09:12 IST" name="shopProductsLinkNavigatesToProducts" finished-at="2026-02-19T10:09:13 IST" duration-ms="731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shopProductsLinkNavigatesToProducts -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest@5af3afd9]" started-at="2026-02-19T10:09:13 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:13 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest -->
-      <class name="com.eyebeem.tests.orders.OrdersPageEmptyTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageEmptyTest@7c729a55]" started-at="2026-02-19T10:09:01 IST" name="setUpDriver" finished-at="2026-02-19T10:09:02 IST" duration-ms="1104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="ordersPageShowsEmptyMessageWhenNoOrders()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageEmptyTest@7c729a55]" started-at="2026-02-19T10:09:02 IST" name="ordersPageShowsEmptyMessageWhenNoOrders" finished-at="2026-02-19T10:09:03 IST" duration-ms="673" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ordersPageShowsEmptyMessageWhenNoOrders -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageEmptyTest@7c729a55]" started-at="2026-02-19T10:09:03 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:03 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.orders.OrdersPageEmptyTest -->
-      <class name="com.eyebeem.tests.orders.OrdersPageDetailsTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageDetailsTest@661972b0]" started-at="2026-02-19T10:09:07 IST" name="setUpDriver" finished-at="2026-02-19T10:09:08 IST" duration-ms="1108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="ordersPageDisplaysOrderDetailsCorrectly()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageDetailsTest@661972b0]" started-at="2026-02-19T10:09:08 IST" name="ordersPageDisplaysOrderDetailsCorrectly" finished-at="2026-02-19T10:09:11 IST" duration-ms="3255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ordersPageDisplaysOrderDetailsCorrectly -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageDetailsTest@661972b0]" started-at="2026-02-19T10:09:11 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:11 IST" duration-ms="99" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.orders.OrdersPageDetailsTest -->
-      <class name="com.eyebeem.tests.orders.OrdersPageListTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageListTest@3bb9a3ff]" started-at="2026-02-19T10:09:03 IST" name="setUpDriver" finished-at="2026-02-19T10:09:04 IST" duration-ms="974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="ordersPageDisplaysOrderListAfterOrderIsPlaced()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageListTest@3bb9a3ff]" started-at="2026-02-19T10:09:04 IST" name="ordersPageDisplaysOrderListAfterOrderIsPlaced" finished-at="2026-02-19T10:09:07 IST" duration-ms="2762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ordersPageDisplaysOrderListAfterOrderIsPlaced -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageListTest@3bb9a3ff]" started-at="2026-02-19T10:09:07 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:07 IST" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.orders.OrdersPageListTest -->
-    </test> <!-- Orders Page Tests -->
-    <test started-at="2026-02-19T10:09:13 IST" name="Layout Tests" finished-at="2026-02-19T10:09:17 IST" duration-ms="3547">
-      <class name="com.eyebeem.tests.layout.LayoutFooterTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.layout.LayoutFooterTest@4f18837a]" started-at="2026-02-19T10:09:15 IST" name="setUpDriver" finished-at="2026-02-19T10:09:16 IST" duration-ms="984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="footerIsVisibleOnHomePage()[pri:0, instance:com.eyebeem.tests.layout.LayoutFooterTest@4f18837a]" started-at="2026-02-19T10:09:16 IST" name="footerIsVisibleOnHomePage" finished-at="2026-02-19T10:09:16 IST" duration-ms="639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- footerIsVisibleOnHomePage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.layout.LayoutFooterTest@4f18837a]" started-at="2026-02-19T10:09:16 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:17 IST" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.layout.LayoutFooterTest -->
-      <class name="com.eyebeem.tests.layout.LayoutHeaderTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.layout.LayoutHeaderTest@6356695f]" started-at="2026-02-19T10:09:13 IST" name="setUpDriver" finished-at="2026-02-19T10:09:14 IST" duration-ms="1076" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="headerIsVisibleOnHomePage()[pri:0, instance:com.eyebeem.tests.layout.LayoutHeaderTest@6356695f]" started-at="2026-02-19T10:09:14 IST" name="headerIsVisibleOnHomePage" finished-at="2026-02-19T10:09:15 IST" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- headerIsVisibleOnHomePage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.layout.LayoutHeaderTest@6356695f]" started-at="2026-02-19T10:09:15 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:15 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.layout.LayoutHeaderTest -->
-    </test> <!-- Layout Tests -->
-    <test started-at="2026-02-19T10:09:17 IST" name="Navigation Tests" finished-at="2026-02-19T10:09:22 IST" duration-ms="5617">
-      <class name="com.eyebeem.tests.navigation.NavigationProductsLinkTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.navigation.NavigationProductsLinkTest@4fb0f2b9]" started-at="2026-02-19T10:09:17 IST" name="setUpDriver" finished-at="2026-02-19T10:09:18 IST" duration-ms="1092" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="productsLinkNavigatesToProductsPage()[pri:0, instance:com.eyebeem.tests.navigation.NavigationProductsLinkTest@4fb0f2b9]" started-at="2026-02-19T10:09:18 IST" name="productsLinkNavigatesToProductsPage" finished-at="2026-02-19T10:09:18 IST" duration-ms="708" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productsLinkNavigatesToProductsPage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.navigation.NavigationProductsLinkTest@4fb0f2b9]" started-at="2026-02-19T10:09:18 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:18 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.navigation.NavigationProductsLinkTest -->
-      <class name="com.eyebeem.tests.navigation.NavigationCartLinkTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.navigation.NavigationCartLinkTest@79924b]" started-at="2026-02-19T10:09:18 IST" name="setUpDriver" finished-at="2026-02-19T10:09:19 IST" duration-ms="1003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="cartLinkNavigatesToCartPage()[pri:0, instance:com.eyebeem.tests.navigation.NavigationCartLinkTest@79924b]" started-at="2026-02-19T10:09:19 IST" name="cartLinkNavigatesToCartPage" finished-at="2026-02-19T10:09:20 IST" duration-ms="716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartLinkNavigatesToCartPage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.navigation.NavigationCartLinkTest@79924b]" started-at="2026-02-19T10:09:20 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:20 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.navigation.NavigationCartLinkTest -->
-      <class name="com.eyebeem.tests.navigation.NavigationOrdersLinkTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.navigation.NavigationOrdersLinkTest@7b9a4292]" started-at="2026-02-19T10:09:20 IST" name="setUpDriver" finished-at="2026-02-19T10:09:21 IST" duration-ms="1110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpDriver -->
-        <test-method signature="ordersLinkNavigatesToOrdersPage()[pri:0, instance:com.eyebeem.tests.navigation.NavigationOrdersLinkTest@7b9a4292]" started-at="2026-02-19T10:09:21 IST" name="ordersLinkNavigatesToOrdersPage" finished-at="2026-02-19T10:09:22 IST" duration-ms="719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ordersLinkNavigatesToOrdersPage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.navigation.NavigationOrdersLinkTest@7b9a4292]" started-at="2026-02-19T10:09:22 IST" name="tearDownDriver" finished-at="2026-02-19T10:09:22 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.navigation.NavigationOrdersLinkTest -->
-    </test> <!-- Navigation Tests -->
-  </suite> <!-- EYE BEE M Pets UI Suite -->
+      </class> <!-- com.eyebeem.tests.images.ProductImagesHomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
