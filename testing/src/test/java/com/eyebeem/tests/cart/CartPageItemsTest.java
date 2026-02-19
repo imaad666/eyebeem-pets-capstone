@@ -32,8 +32,8 @@ public class CartPageItemsTest extends BaseTest {
             }
         }
         
-        // Navigate to cart page
-        driver.get(baseUrl + "/cart");
+        // Navigate to cart via link (preserves SPA state - driver.get would reset cart)
+        driver.findElement(By.cssSelector("a[href='/cart']")).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
         
         // Verify cart heading
@@ -41,8 +41,8 @@ public class CartPageItemsTest extends BaseTest {
         Assert.assertEquals(heading.getText(), "CART",
                 "Cart page should have CART heading");
         
-        // Verify cart items are displayed (find list items)
-        List<WebElement> cartItems = driver.findElements(By.cssSelector(".retro-container li"));
+        // Verify cart items are displayed (li.retro-container = cart line items)
+        List<WebElement> cartItems = driver.findElements(By.cssSelector("ul li.retro-container"));
         Assert.assertTrue(cartItems.size() > 0,
                 "Cart should display at least one item");
         

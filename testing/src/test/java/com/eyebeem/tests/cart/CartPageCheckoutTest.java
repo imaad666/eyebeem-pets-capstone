@@ -31,20 +31,18 @@ public class CartPageCheckoutTest extends BaseTest {
             }
         }
         
-        // Navigate to cart
-        driver.get(baseUrl + "/cart");
+        // Navigate to cart via link (preserves SPA state)
+        driver.findElement(By.cssSelector("a[href='/cart']")).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
         
-        // Find and click GO TO CHECKOUT button
-        List<WebElement> checkoutButtons = driver.findElements(By.cssSelector("button"));
+        // Find and click GO TO CHECKOUT button (exact text to avoid nav link)
         WebElement checkoutButton = null;
-        for (WebElement button : checkoutButtons) {
-            if (button.getText().contains("CHECKOUT")) {
-                checkoutButton = button;
+        for (WebElement b : driver.findElements(By.cssSelector("button"))) {
+            if ("GO TO CHECKOUT".equals(b.getText())) {
+                checkoutButton = b;
                 break;
             }
         }
-        
         Assert.assertNotNull(checkoutButton, "Should find GO TO CHECKOUT button");
         checkoutButton.click();
         

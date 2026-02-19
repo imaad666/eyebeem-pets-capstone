@@ -31,8 +31,15 @@ public class CheckoutPageAddressTest extends BaseTest {
             }
         }
         
-        // Navigate to checkout
-        driver.get(baseUrl + "/checkout");
+        // Navigate to cart then checkout via links (preserves SPA state)
+        driver.findElement(By.cssSelector("a[href='/cart']")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
+        for (WebElement b : driver.findElements(By.cssSelector("button"))) {
+            if ("GO TO CHECKOUT".equals(b.getText())) {
+                b.click();
+                break;
+            }
+        }
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("checkout-street")));
         
         // Verify all address fields are present

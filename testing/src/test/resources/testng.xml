@@ -6,6 +6,8 @@
             <class name="com.eyebeem.tests.home.HomePageHeroTest"/>
             <class name="com.eyebeem.tests.home.HomePageNavbarTest"/>
             <class name="com.eyebeem.tests.home.HomePageFooterTest"/>
+            <class name="com.eyebeem.tests.home.HomePageProductsGridTest"/>
+            <class name="com.eyebeem.tests.home.HomePageLogoLinkTest"/>
         </classes>
     </test>
     <test name="Login Page Tests">
@@ -14,6 +16,7 @@
             <class name="com.eyebeem.tests.login.LoginPageSubmitTest"/>
             <class name="com.eyebeem.tests.login.LoginPageLogoutTest"/>
             <class name="com.eyebeem.tests.login.LoginPageNavigationTest"/>
+            <class name="com.eyebeem.tests.login.LoginPageFormLabelsTest"/>
         </classes>
     </test>
     <test name="Products Page Tests">
@@ -22,6 +25,8 @@
             <class name="com.eyebeem.tests.products.ProductsPageSearchTest"/>
             <class name="com.eyebeem.tests.products.ProductsPageFilterTest"/>
             <class name="com.eyebeem.tests.products.ProductsPageAddToCartTest"/>
+            <class name="com.eyebeem.tests.products.ProductsPageSearchInputTest"/>
+            <class name="com.eyebeem.tests.products.ProductsPageFilterDropdownTest"/>
         </classes>
     </test>
     <test name="Cart Page Tests">
@@ -30,6 +35,8 @@
             <class name="com.eyebeem.tests.cart.CartPageItemsTest"/>
             <class name="com.eyebeem.tests.cart.CartPageTotalTest"/>
             <class name="com.eyebeem.tests.cart.CartPageCheckoutTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageClearButtonTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageShopProductsLinkTest"/>
         </classes>
     </test>
     <test name="Checkout Page Tests">
@@ -37,6 +44,8 @@
             <class name="com.eyebeem.tests.checkout.CheckoutPageAddressTest"/>
             <class name="com.eyebeem.tests.checkout.CheckoutPagePaymentTest"/>
             <class name="com.eyebeem.tests.checkout.CheckoutPageOrderTest"/>
+            <class name="com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest"/>
+            <class name="com.eyebeem.tests.checkout.CheckoutPageBackToCartTest"/>
         </classes>
     </test>
     <test name="Orders Page Tests">
@@ -44,6 +53,20 @@
             <class name="com.eyebeem.tests.orders.OrdersPageEmptyTest"/>
             <class name="com.eyebeem.tests.orders.OrdersPageListTest"/>
             <class name="com.eyebeem.tests.orders.OrdersPageDetailsTest"/>
+            <class name="com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest"/>
+        </classes>
+    </test>
+    <test name="Layout Tests">
+        <classes>
+            <class name="com.eyebeem.tests.layout.LayoutHeaderTest"/>
+            <class name="com.eyebeem.tests.layout.LayoutFooterTest"/>
+        </classes>
+    </test>
+    <test name="Navigation Tests">
+        <classes>
+            <class name="com.eyebeem.tests.navigation.NavigationProductsLinkTest"/>
+            <class name="com.eyebeem.tests.navigation.NavigationCartLinkTest"/>
+            <class name="com.eyebeem.tests.navigation.NavigationOrdersLinkTest"/>
         </classes>
     </test>
 </suite>

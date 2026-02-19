@@ -32,8 +32,8 @@ public class CartPageTotalTest extends BaseTest {
             }
         }
         
-        // Navigate to cart
-        driver.get(baseUrl + "/cart");
+        // Navigate to cart via link (preserves SPA state)
+        driver.findElement(By.cssSelector("a[href='/cart']")).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
         
         // Find total section

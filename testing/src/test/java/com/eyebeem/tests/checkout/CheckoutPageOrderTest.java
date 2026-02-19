@@ -31,8 +31,15 @@ public class CheckoutPageOrderTest extends BaseTest {
             }
         }
         
-        // Go to checkout and fill address
-        driver.get(baseUrl + "/checkout");
+        // Go to cart then checkout (preserves SPA state)
+        driver.findElement(By.cssSelector("a[href='/cart']")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
+        for (WebElement b : driver.findElements(By.cssSelector("button"))) {
+            if ("GO TO CHECKOUT".equals(b.getText())) {
+                b.click();
+                break;
+            }
+        }
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("checkout-street")));
         
         driver.findElement(By.id("checkout-street")).sendKeys("123 Robot Street");
