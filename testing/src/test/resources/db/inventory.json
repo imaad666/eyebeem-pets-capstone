@@ -1,0 +1,1 @@
+[{"dataset":"INVENTORY","product_id":1,"name":"e-CAT","price":99.99,"type":"FELINE","quantity":5},{"dataset":"INVENTORY","product_id":2,"name":"e-DOG","price":129.99,"type":"CANINE","quantity":9},{"dataset":"INVENTORY","product_id":3,"name":"e-HAMSTER","price":49.99,"type":"RODENT","quantity":9}]

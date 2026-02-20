@@ -1,4 +1,12 @@
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/BaseApiTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/BaseDbTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/BaseTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/api/AuthApiTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/api/CartApiTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/api/CreateAccountApiTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/api/OrdersApiTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/api/ProductsApiTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/api/UsersApiTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/cart/CartPageCheckoutTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/cart/CartPageClearButtonTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/cart/CartPageEmptyTest.java
@@ -10,6 +18,12 @@
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/checkout/CheckoutPageEmptyCartTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/checkout/CheckoutPageOrderTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/checkout/CheckoutPagePaymentTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/db/InventoryDataDbTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/db/InventoryDbTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/db/OrderItemsDbTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/db/OrdersDataDbTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/db/OrdersDbTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/db/UsersDbTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/home/HomePageFooterTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/home/HomePageHeroTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/home/HomePageLogoLinkTest.java
@@ -40,3 +54,6 @@
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/products/ProductsPageFilterTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/products/ProductsPageSearchInputTest.java
 /Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/products/ProductsPageSearchTest.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/util/ApiClient.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/util/DatabaseUtil.java
+/Users/imaad/i/cap/eyebeem-pets-capstone/testing/src/test/java/com/eyebeem/tests/util/TestDataLoader.java

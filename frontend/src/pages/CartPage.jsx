@@ -21,7 +21,7 @@ export default function CartPage() {
               <li key={item.product.id} className="retro-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                 <span>{item.product.name} x {item.quantity}</span>
                 <span>${(item.quantity * item.product.price).toFixed(2)}</span>
-                <button type="button" style={{ fontSize: '0.6rem', padding: '0.5rem 0.75rem' }} onClick={() => handleRemoveFromCart(item.product.id)}>REMOVE</button>
+                <button type="button" style={{ fontSize: '0.6rem', padding: '0.5rem 0.75rem' }} onClick={() => handleRemoveFromCart(item)}>REMOVE</button>
               </li>
             ))}
           </ul>

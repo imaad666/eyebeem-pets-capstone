@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/useApp';
-import { products } from '../data/products';
 
 const productImageStyle = {
   height: '200px',
@@ -12,7 +11,7 @@ const productImageStyle = {
 };
 
 export default function HomePage() {
-  const { handleAddToCart } = useApp();
+  const { products, productsLoading, productsError, handleAddToCart } = useApp();
 
   return (
     <>
@@ -33,11 +32,13 @@ export default function HomePage() {
       </section>
 
       <div className="container" style={{ flex: 1, marginBottom: '4rem' }}>
+        {productsLoading && <p className="retro-container">Loading products…</p>}
+        {productsError && <p className="retro-container" style={{ color: 'red' }}>Could not load products. Showing fallback.</p>}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
           {products.map((product) => (
             <div key={product.id} className="retro-container" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div style={{ height: '200px', overflow: 'hidden', border: '2px solid black' }}>
-                <img src={product.image} alt={product.name} style={productImageStyle} />
+                {product.image && <img src={product.image} alt={product.name} style={productImageStyle} />}
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>

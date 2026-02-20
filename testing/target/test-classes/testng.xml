@@ -77,5 +77,45 @@
             <class name="com.eyebeem.tests.images.ProductImagesLoadTest"/>
         </classes>
     </test>
+    <test name="API Tests - Auth">
+        <classes>
+            <class name="com.eyebeem.tests.api.AuthApiTest"/>
+        </classes>
+    </test>
+    <test name="API Tests - Orders">
+        <classes>
+            <class name="com.eyebeem.tests.api.OrdersApiTest"/>
+        </classes>
+    </test>
+    <test name="API Tests - Products">
+        <classes>
+            <class name="com.eyebeem.tests.api.ProductsApiTest"/>
+        </classes>
+    </test>
+    <test name="API Tests - Users">
+        <classes>
+            <class name="com.eyebeem.tests.api.UsersApiTest"/>
+        </classes>
+    </test>
+    <test name="API Tests - Cart">
+        <classes>
+            <class name="com.eyebeem.tests.api.CartApiTest"/>
+        </classes>
+    </test>
+    <test name="API Tests - Create Account E2E">
+        <classes>
+            <class name="com.eyebeem.tests.api.CreateAccountApiTest"/>
+        </classes>
+    </test>
+    <test name="Database Tests">
+        <classes>
+            <class name="com.eyebeem.tests.db.OrdersDbTest"/>
+            <class name="com.eyebeem.tests.db.InventoryDbTest"/>
+            <class name="com.eyebeem.tests.db.UsersDbTest"/>
+            <class name="com.eyebeem.tests.db.OrdersDataDbTest"/>
+            <class name="com.eyebeem.tests.db.OrderItemsDbTest"/>
+            <class name="com.eyebeem.tests.db.InventoryDataDbTest"/>
+        </classes>
+    </test>
 </suite>
 

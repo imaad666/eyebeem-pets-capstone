@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/useApp';
-import { products } from '../data/products';
 
 const productImageStyle = {
   height: '200px',
@@ -11,7 +10,7 @@ const productImageStyle = {
 };
 
 export default function ProductsPage() {
-  const { handleAddToCart } = useApp();
+  const { products, productsLoading, productsError, handleAddToCart } = useApp();
   const [search, setSearch] = useState('');
   const [typeFilter, setTypeFilter] = useState('');
 
@@ -21,13 +20,15 @@ export default function ProductsPage() {
       const matchType = !typeFilter || p.type === typeFilter;
       return matchSearch && matchType;
     });
-  }, [search, typeFilter]);
+  }, [search, typeFilter, products]);
 
   const types = [...new Set(products.map((p) => p.type))];
 
   return (
     <div className="container" style={{ marginBottom: '4rem' }}>
       <h2 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>PRODUCTS</h2>
+      {productsLoading && <p className="retro-container">Loading products…</p>}
+      {productsError && <p className="retro-container" style={{ color: 'red' }}>Could not load products. Showing fallback.</p>}
       <div className="retro-container" style={{ marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <label htmlFor="product-search" style={{ fontSize: '0.9rem' }}>Search</label>
         <input id="product-search" type="text" placeholder="Search by name..." value={search} onChange={(e) => setSearch(e.target.value)} aria-label="Search products" />
@@ -46,7 +47,7 @@ export default function ProductsPage() {
           filtered.map((product) => (
             <div key={product.id} className="retro-container" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div style={{ height: '200px', overflow: 'hidden', border: '2px solid black' }}>
-                <img src={product.image} alt={product.name} style={productImageStyle} />
+                {product.image && <img src={product.image} alt={product.name} style={productImageStyle} />}
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>

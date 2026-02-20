@@ -1,0 +1,34 @@
+[
+	{
+		"dataset" : "ORDER_ITEMS",
+		"order_id" : 1,
+		"product_id" : 1,
+		"product_name" : "e-CAT",
+		"quantity" : 1,
+		"unit_price" : 99.99
+	},
+	{
+		"dataset" : "ORDER_ITEMS",
+		"order_id" : 2,
+		"product_id" : 2,
+		"product_name" : "e-DOG",
+		"quantity" : 1,
+		"unit_price" : 129.99
+	},
+	{
+		"dataset" : "ORDER_ITEMS",
+		"order_id" : 3,
+		"product_id" : 1,
+		"product_name" : "e-CAT",
+		"quantity" : 4,
+		"unit_price" : 99.99
+	},
+	{
+		"dataset" : "ORDER_ITEMS",
+		"order_id" : 4,
+		"product_id" : 3,
+		"product_name" : "e-HAMSTER",
+		"quantity" : 1,
+		"unit_price" : 49.99
+	}
+]
