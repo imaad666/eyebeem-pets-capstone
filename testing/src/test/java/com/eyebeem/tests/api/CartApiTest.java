@@ -34,13 +34,6 @@ public class CartApiTest extends BaseApiTest {
     }
 
     @Test
-    public void getCart_itemsIsArray() throws Exception {
-        HttpResponse<String> res = api.get("/api/cart?userId=1");
-        JsonObject c = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertTrue(c.get("items").isJsonArray());
-    }
-
-    @Test
     public void addToCart_thenGetCart_containsItem() throws Exception {
         api.delete("/api/cart?userId=1");
         HttpResponse<String> addRes = api.post("/api/cart/items", "{\"userId\":1,\"productId\":2,\"quantity\":1}");

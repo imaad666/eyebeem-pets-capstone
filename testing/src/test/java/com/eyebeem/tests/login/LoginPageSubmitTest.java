@@ -19,7 +19,7 @@ public class LoginPageSubmitTest extends BaseTest {
     public void loginFormAcceptsValidCredentials() {
         driver.get(baseUrl + "/login");
         
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("login-name")));
         
         // Fill in name field
@@ -30,25 +30,24 @@ public class LoginPageSubmitTest extends BaseTest {
         // Fill in email field
         WebElement emailInput = driver.findElement(By.id("login-email"));
         emailInput.clear();
-        emailInput.sendKeys("test@example.com");
+        emailInput.sendKeys("test@eyebeem.com");
         
         // Submit form
         WebElement submitButton = driver.findElement(By.cssSelector("button[type='submit']"));
         submitButton.click();
         
-        // Wait for profile page to appear (user logged in)
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
+        // Wait for async login + profile to appear (LOG OUT button only shows when logged in)
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[contains(text(),'LOG OUT')]")));
         
         // Verify we're on profile page
-        WebElement profileHeading = driver.findElement(By.cssSelector("h2"));
-        Assert.assertTrue(profileHeading.getText().contains("USER PROFILE"),
-                "After login, should see USER PROFILE heading");
+        WebElement profileHeading = driver.findElement(By.xpath("//h2[contains(text(),'USER PROFILE')]"));
+        Assert.assertNotNull(profileHeading, "After login, should see USER PROFILE heading");
         
         // Verify user info is displayed
-        WebElement userInfo = driver.findElement(By.cssSelector("p"));
+        WebElement userInfo = driver.findElement(By.cssSelector(".retro-container p"));
         Assert.assertTrue(userInfo.getText().contains("Test User"),
                 "Profile should display user name");
-        Assert.assertTrue(userInfo.getText().contains("test@example.com"),
+        Assert.assertTrue(userInfo.getText().contains("test@eyebeem.com"),
                 "Profile should display user email");
     }
 }

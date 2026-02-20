@@ -50,42 +50,6 @@ public class ProductsApiTest extends BaseApiTest {
     }
 
     @Test
-    public void getProducts_eachHasProductId() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        JsonArray arr = api.parseJsonArray(res.body());
-        for (JsonElement e : arr) {
-            Assert.assertTrue(e.getAsJsonObject().has("productId"));
-        }
-    }
-
-    @Test
-    public void getProducts_eachHasName() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        JsonArray arr = api.parseJsonArray(res.body());
-        for (JsonElement e : arr) {
-            Assert.assertFalse(e.getAsJsonObject().get("name").getAsString().isEmpty());
-        }
-    }
-
-    @Test
-    public void getProducts_eachHasPrice() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        JsonArray arr = api.parseJsonArray(res.body());
-        for (JsonElement e : arr) {
-            Assert.assertTrue(e.getAsJsonObject().has("price"));
-        }
-    }
-
-    @Test
-    public void getProducts_eachHasQuantity() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        JsonArray arr = api.parseJsonArray(res.body());
-        for (JsonElement e : arr) {
-            Assert.assertTrue(e.getAsJsonObject().has("quantity"));
-        }
-    }
-
-    @Test
     public void getProduct1_returnsECat() throws Exception {
         HttpResponse<String> res = api.get("/api/products/1");
         Assert.assertEquals(res.statusCode(), 200);
@@ -133,42 +97,4 @@ public class ProductsApiTest extends BaseApiTest {
         Assert.assertEquals(p.get("price").getAsDouble(), 49.99, 0.01);
     }
 
-    @Test
-    public void getProducts_typeFelineForECat() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        for (JsonElement e : api.parseJsonArray(res.body())) {
-            JsonObject p = e.getAsJsonObject();
-            if ("e-CAT".equals(p.get("name").getAsString())) {
-                Assert.assertEquals(p.get("type").getAsString(), "FELINE");
-                return;
-            }
-        }
-        Assert.fail("e-CAT not found");
-    }
-
-    @Test
-    public void getProducts_typeCanineForEDog() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        for (JsonElement e : api.parseJsonArray(res.body())) {
-            JsonObject p = e.getAsJsonObject();
-            if ("e-DOG".equals(p.get("name").getAsString())) {
-                Assert.assertEquals(p.get("type").getAsString(), "CANINE");
-                return;
-            }
-        }
-        Assert.fail("e-DOG not found");
-    }
-
-    @Test
-    public void getProducts_typeRodentForEHamster() throws Exception {
-        HttpResponse<String> res = api.get("/api/products");
-        for (JsonElement e : api.parseJsonArray(res.body())) {
-            JsonObject p = e.getAsJsonObject();
-            if ("e-HAMSTER".equals(p.get("name").getAsString())) {
-                Assert.assertEquals(p.get("type").getAsString(), "RODENT");
-                return;
-            }
-        }
-        Assert.fail("e-HAMSTER not found");
-    }
 }

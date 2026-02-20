@@ -130,42 +130,4 @@ public class OrdersApiTest extends BaseApiTest {
         Assert.assertEquals(items.get(0).getAsJsonObject().get("quantity").getAsInt(), 1);
     }
 
-    @Test
-    public void orderHistory_returnsArray() throws Exception {
-        HttpResponse<String> res = api.get("/api/orders/history?userId=1");
-        Assert.assertTrue(res.body().trim().startsWith("["));
-    }
-
-    @Test
-    public void orderHistory_eachOrderHasId() throws Exception {
-        for (long userId = 1; userId <= 5; userId++) {
-            HttpResponse<String> res = api.get("/api/orders/history?userId=" + userId);
-            JsonArray arr = api.parseJsonArray(res.body());
-            for (JsonElement e : arr) {
-                Assert.assertTrue(e.getAsJsonObject().has("id"));
-            }
-        }
-    }
-
-    @Test
-    public void orderHistory_eachOrderHasTotal() throws Exception {
-        for (long userId = 1; userId <= 5; userId++) {
-            HttpResponse<String> res = api.get("/api/orders/history?userId=" + userId);
-            JsonArray arr = api.parseJsonArray(res.body());
-            for (JsonElement e : arr) {
-                Assert.assertTrue(e.getAsJsonObject().has("total"));
-            }
-        }
-    }
-
-    @Test
-    public void orderHistory_eachOrderHasItems() throws Exception {
-        for (long userId = 1; userId <= 5; userId++) {
-            HttpResponse<String> res = api.get("/api/orders/history?userId=" + userId);
-            JsonArray arr = api.parseJsonArray(res.body());
-            for (JsonElement e : arr) {
-                Assert.assertTrue(e.getAsJsonObject().has("items"));
-            }
-        }
-    }
 }

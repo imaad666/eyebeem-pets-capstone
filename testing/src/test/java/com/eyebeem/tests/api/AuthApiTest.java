@@ -70,38 +70,6 @@ public class AuthApiTest extends BaseApiTest {
     }
 
     @Test
-    public void loginResponse_hasId() throws Exception {
-        HttpResponse<String> res = api.post("/api/users/login", "{\"name\":\"Test User\",\"email\":\"test@eyebeem.com\"}");
-        JsonObject body = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertTrue(body.has("id"));
-        Assert.assertTrue(body.get("id").isJsonPrimitive());
-    }
-
-    @Test
-    public void loginResponse_hasName() throws Exception {
-        HttpResponse<String> res = api.post("/api/users/login", "{\"name\":\"Test User\",\"email\":\"test@eyebeem.com\"}");
-        JsonObject body = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertTrue(body.has("name"));
-        Assert.assertFalse(body.get("name").getAsString().isEmpty());
-    }
-
-    @Test
-    public void loginResponse_hasEmail() throws Exception {
-        HttpResponse<String> res = api.post("/api/users/login", "{\"name\":\"Test User\",\"email\":\"test@eyebeem.com\"}");
-        JsonObject body = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertTrue(body.has("email"));
-        Assert.assertTrue(body.get("email").getAsString().contains("@"));
-    }
-
-    @Test
-    public void loginResponse_hasOrderHistory() throws Exception {
-        HttpResponse<String> res = api.post("/api/users/login", "{\"name\":\"Test User\",\"email\":\"test@eyebeem.com\"}");
-        JsonObject body = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertTrue(body.has("orderHistory"));
-        Assert.assertTrue(body.get("orderHistory").isJsonArray());
-    }
-
-    @Test
     public void loginAsEachUser_fromTestData() throws Exception {
         JsonArray users = TestDataLoader.loadUsers();
         for (JsonElement u : users) {

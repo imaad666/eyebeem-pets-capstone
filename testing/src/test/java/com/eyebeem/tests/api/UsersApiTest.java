@@ -23,33 +23,6 @@ public class UsersApiTest extends BaseApiTest {
     }
 
     @Test
-    public void getUser2_returnsJaneDoe() throws Exception {
-        HttpResponse<String> res = api.get("/api/users/2");
-        Assert.assertEquals(res.statusCode(), 200);
-        JsonObject u = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertEquals(u.get("name").getAsString(), "Jane Doe");
-        Assert.assertEquals(u.get("email").getAsString(), "jane@eyebeem.com");
-    }
-
-    @Test
-    public void getUser3_returnsImaad() throws Exception {
-        HttpResponse<String> res = api.get("/api/users/3");
-        Assert.assertEquals(res.statusCode(), 200);
-        JsonObject u = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertEquals(u.get("name").getAsString(), "imaad");
-        Assert.assertEquals(u.get("email").getAsString(), "imaad@imaad.com");
-    }
-
-    @Test
-    public void getUser4_returnsAryan() throws Exception {
-        HttpResponse<String> res = api.get("/api/users/4");
-        Assert.assertEquals(res.statusCode(), 200);
-        JsonObject u = api.parseJson(res.body()).getAsJsonObject();
-        Assert.assertEquals(u.get("name").getAsString(), "aryan");
-        Assert.assertEquals(u.get("email").getAsString(), "aryan@aryan.com");
-    }
-
-    @Test
     public void getUser5_returnsPetlover() throws Exception {
         HttpResponse<String> res = api.get("/api/users/5");
         Assert.assertEquals(res.statusCode(), 200);

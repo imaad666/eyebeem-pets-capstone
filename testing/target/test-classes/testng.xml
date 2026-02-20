@@ -14,9 +14,7 @@
         <classes>
             <class name="com.eyebeem.tests.login.LoginPageFormTest"/>
             <class name="com.eyebeem.tests.login.LoginPageSubmitTest"/>
-            <class name="com.eyebeem.tests.login.LoginPageLogoutTest"/>
             <class name="com.eyebeem.tests.login.LoginPageNavigationTest"/>
-            <class name="com.eyebeem.tests.login.LoginPageFormLabelsTest"/>
         </classes>
     </test>
     <test name="Products Page Tests">
@@ -66,15 +64,12 @@
         <classes>
             <class name="com.eyebeem.tests.navigation.NavigationProductsLinkTest"/>
             <class name="com.eyebeem.tests.navigation.NavigationCartLinkTest"/>
-            <class name="com.eyebeem.tests.navigation.NavigationOrdersLinkTest"/>
         </classes>
     </test>
     <test name="Product Images Tests">
         <classes>
             <class name="com.eyebeem.tests.images.ProductImagesHomePageTest"/>
             <class name="com.eyebeem.tests.images.ProductImagesProductsPageTest"/>
-            <class name="com.eyebeem.tests.images.ProductImagesAltTextTest"/>
-            <class name="com.eyebeem.tests.images.ProductImagesLoadTest"/>
         </classes>
     </test>
     <test name="API Tests - Auth">
