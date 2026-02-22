@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="History Module" verbose="1">
+    <test name="History - UI">
+        <classes>
+            <class name="com.eyebeem.tests.orders.OrdersPageEmptyTest"/>
+            <class name="com.eyebeem.tests.orders.OrdersPageListTest"/>
+            <class name="com.eyebeem.tests.orders.OrdersPageDetailsTest"/>
+            <class name="com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest"/>
+        </classes>
+    </test>
+    <test name="History - API">
+        <classes>
+            <class name="com.eyebeem.tests.api.OrdersApiTest"/>
+        </classes>
+    </test>
+    <test name="History - Database">
+        <classes>
+            <class name="com.eyebeem.tests.db.OrdersDbTest"/>
+            <class name="com.eyebeem.tests.db.OrdersDataDbTest"/>
+            <class name="com.eyebeem.tests.db.OrderItemsDbTest"/>
+        </classes>
+    </test>
+</suite>

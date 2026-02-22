@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="78.487" tests="121" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.204" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="webdriver.chrome.driver" value="/Users/imaad/.cache/selenium/chromedriver/mac-arm64/145.0.7632.77/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/test-classes:/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/classes:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar:/Users/imaad/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/imaad/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/imaad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/imaad/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/imaad/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar:/Users/imaad/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar:/Users/imaad/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/imaad/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/imaad/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/imaad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/imaad/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.3/webdrivermanager-6.3.3.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java/3.6.0/docker-java-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-core/3.6.0/docker-java-core-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-api/3.6.0/docker-java-api-3.6.0.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/imaad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.6.0/docker-java-transport-httpclient5-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport/3.6.0/docker-java-transport-3.6.0.jar:/Users/imaad/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/imaad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/imaad/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/imaad/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/imaad/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/imaad/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar:/Users/imaad/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="java.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/test-classes:/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/classes:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar:/Users/imaad/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/imaad/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/imaad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/imaad/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/imaad/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar:/Users/imaad/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar:/Users/imaad/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/imaad/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/imaad/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/imaad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/imaad/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.3/webdrivermanager-6.3.3.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java/3.6.0/docker-java-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-core/3.6.0/docker-java-core-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-api/3.6.0/docker-java-api-3.6.0.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/imaad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.6.0/docker-java-transport-httpclient5-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport/3.6.0/docker-java-transport-3.6.0.jar:/Users/imaad/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/imaad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/imaad/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/imaad/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/imaad/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/imaad/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar:/Users/imaad/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-testng/2.29.0/allure-testng-2.29.0.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="suiteXmlFile" value="suites/testng-registration.xml"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="24"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260220101534444_3.jar /Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire 2026-02-20T10-15-34_385-jvmRun1 surefire-20260220101534444_1tmp surefire_0-20260220101534444_2tmp"/>
+    <property name="sun.java.command" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260222135226513_3.jar /Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire 2026-02-22T13-52-26_411-jvmRun1 surefire-20260222135226513_1tmp surefire_0-20260222135226513_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/test-classes:/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/classes:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar:/Users/imaad/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/imaad/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/imaad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/imaad/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/imaad/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar:/Users/imaad/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar:/Users/imaad/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/imaad/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/imaad/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/imaad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/imaad/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.3/webdrivermanager-6.3.3.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java/3.6.0/docker-java-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-core/3.6.0/docker-java-core-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-api/3.6.0/docker-java-api-3.6.0.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/imaad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.6.0/docker-java-transport-httpclient5-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport/3.6.0/docker-java-transport-3.6.0.jar:/Users/imaad/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/imaad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/imaad/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/imaad/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/imaad/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/imaad/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar:/Users/imaad/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/test-classes:/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/classes:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar:/Users/imaad/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar:/Users/imaad/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/imaad/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/imaad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/imaad/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/imaad/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar:/Users/imaad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar:/Users/imaad/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar:/Users/imaad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar:/Users/imaad/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/imaad/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/imaad/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/imaad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/imaad/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.3/webdrivermanager-6.3.3.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java/3.6.0/docker-java-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-core/3.6.0/docker-java-core-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-api/3.6.0/docker-java-api-3.6.0.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/imaad/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/imaad/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.6.0/docker-java-transport-httpclient5-3.6.0.jar:/Users/imaad/.m2/repository/com/github/docker-java/docker-java-transport/3.6.0/docker-java-transport-3.6.0.jar:/Users/imaad/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/imaad/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/imaad/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/imaad/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/imaad/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/imaad/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/imaad/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/imaad/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar:/Users/imaad/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-testng/2.29.0/allure-testng-2.29.0.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/Users/imaad/.m2/repository/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar:"/>
+    <property name="allure.results.directory" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/imaad"/>
     <property name="user.language" value="en"/>
@@ -31,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260220101534444_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/imaad/i/cap/eyebeem-pets-capstone/testing/target/surefire/surefirebooter-20260222135226513_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="24.0.2+12-54"/>
@@ -59,272 +61,42 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="homePageTitleContainsAppName" classname="com.eyebeem.tests.home.HomePageTitleTest" time="0.168">
+  <testcase name="loginFormDisplaysNameAndEmailFields" classname="com.eyebeem.tests.login.LoginPageFormTest" time="0.83">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Feb 20, 2026 10:15:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 22, 2026 1:52:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
 ]]></system-err>
   </testcase>
-  <testcase name="heroSectionDisplaysHeadingAndTagline" classname="com.eyebeem.tests.home.HomePageHeroTest" time="0.675">
-    <system-err><![CDATA[Feb 20, 2026 10:15:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="loginFormAcceptsValidCredentials" classname="com.eyebeem.tests.login.LoginPageSubmitTest" time="1.007">
+    <system-err><![CDATA[Feb 22, 2026 1:52:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
 ]]></system-err>
   </testcase>
-  <testcase name="navbarContainsAllNavigationLinks" classname="com.eyebeem.tests.home.HomePageNavbarTest" time="0.73">
-    <system-err><![CDATA[Feb 20, 2026 10:15:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="loginPageUrlAndTitleAreCorrect" classname="com.eyebeem.tests.login.LoginPageNavigationTest" time="0.686">
+    <system-err><![CDATA[Feb 22, 2026 1:52:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
 ]]></system-err>
   </testcase>
-  <testcase name="footerDisplaysCopyrightText" classname="com.eyebeem.tests.home.HomePageFooterTest" time="0.67">
-    <system-err><![CDATA[Feb 20, 2026 10:15:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="homePageShowsProductCardsWithAddToCart" classname="com.eyebeem.tests.home.HomePageProductsGridTest" time="0.658">
-    <system-err><![CDATA[Feb 20, 2026 10:15:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="logoLinkNavigatesToHome" classname="com.eyebeem.tests.home.HomePageLogoLinkTest" time="0.722">
-    <system-err><![CDATA[Feb 20, 2026 10:15:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="loginFormDisplaysNameAndEmailFields" classname="com.eyebeem.tests.login.LoginPageFormTest" time="0.705">
-    <system-err><![CDATA[Feb 20, 2026 10:15:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="loginFormAcceptsValidCredentials" classname="com.eyebeem.tests.login.LoginPageSubmitTest" time="0.961">
-    <system-err><![CDATA[Feb 20, 2026 10:15:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="loginPageUrlAndTitleAreCorrect" classname="com.eyebeem.tests.login.LoginPageNavigationTest" time="0.662">
-    <system-err><![CDATA[Feb 20, 2026 10:15:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productsPageDisplaysAllProducts" classname="com.eyebeem.tests.products.ProductsPageDisplayTest" time="0.698">
-    <system-err><![CDATA[Feb 20, 2026 10:15:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productSearchFiltersResults" classname="com.eyebeem.tests.products.ProductsPageSearchTest" time="1.044">
-    <system-err><![CDATA[Feb 20, 2026 10:15:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productTypeFilterFiltersByType" classname="com.eyebeem.tests.products.ProductsPageFilterTest" time="0.72">
-    <system-err><![CDATA[Feb 20, 2026 10:15:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="addToCartButtonAddsProductToCart" classname="com.eyebeem.tests.products.ProductsPageAddToCartTest" time="0.704">
-    <system-err><![CDATA[Feb 20, 2026 10:15:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productsPageHasSearchInput" classname="com.eyebeem.tests.products.ProductsPageSearchInputTest" time="0.63">
-    <system-err><![CDATA[Feb 20, 2026 10:16:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productsPageHasTypeFilterDropdown" classname="com.eyebeem.tests.products.ProductsPageFilterDropdownTest" time="0.634">
-    <system-err><![CDATA[Feb 20, 2026 10:16:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="cartPageShowsEmptyMessageWhenCartIsEmpty" classname="com.eyebeem.tests.cart.CartPageEmptyTest" time="0.678">
-    <system-err><![CDATA[Feb 20, 2026 10:16:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="cartPageDisplaysItemsWhenCartHasProducts" classname="com.eyebeem.tests.cart.CartPageItemsTest" time="0.814">
-    <system-err><![CDATA[Feb 20, 2026 10:16:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="cartPageDisplaysCorrectTotal" classname="com.eyebeem.tests.cart.CartPageTotalTest" time="0.8">
-    <system-err><![CDATA[Feb 20, 2026 10:16:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="checkoutButtonNavigatesToCheckoutPage" classname="com.eyebeem.tests.cart.CartPageCheckoutTest" time="1.372">
-    <system-err><![CDATA[Feb 20, 2026 10:16:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="clearCartButtonEmptiesCart" classname="com.eyebeem.tests.cart.CartPageClearButtonTest" time="0.847">
-    <system-err><![CDATA[Feb 20, 2026 10:16:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="shopProductsLinkNavigatesToProducts" classname="com.eyebeem.tests.cart.CartPageShopProductsLinkTest" time="0.783">
-    <system-err><![CDATA[Feb 20, 2026 10:16:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="checkoutPageAddressFormAcceptsValidInput" classname="com.eyebeem.tests.checkout.CheckoutPageAddressTest" time="1.087">
-    <system-err><![CDATA[Feb 20, 2026 10:16:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="checkoutPaymentStepDisplaysPaymentOptions" classname="com.eyebeem.tests.checkout.CheckoutPagePaymentTest" time="1.21">
-    <system-err><![CDATA[Feb 20, 2026 10:16:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="checkoutCompletesOrderSuccessfully" classname="com.eyebeem.tests.checkout.CheckoutPageOrderTest" time="1.709">
-    <system-err><![CDATA[Feb 20, 2026 10:16:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="checkoutShowsEmptyMessageWhenCartEmpty" classname="com.eyebeem.tests.checkout.CheckoutPageEmptyCartTest" time="0.648">
-    <system-err><![CDATA[Feb 20, 2026 10:16:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="backToCartLinkNavigatesToCart" classname="com.eyebeem.tests.checkout.CheckoutPageBackToCartTest" time="1.403">
-    <system-err><![CDATA[Feb 20, 2026 10:16:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="ordersPageShowsEmptyMessageWhenNoOrders" classname="com.eyebeem.tests.orders.OrdersPageEmptyTest" time="0.671">
-    <system-err><![CDATA[Feb 20, 2026 10:16:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="ordersPageDisplaysOrderListAfterOrderIsPlaced" classname="com.eyebeem.tests.orders.OrdersPageListTest" time="3.221">
-    <system-err><![CDATA[Feb 20, 2026 10:16:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="ordersPageDisplaysOrderDetailsCorrectly" classname="com.eyebeem.tests.orders.OrdersPageDetailsTest" time="3.456">
-    <system-err><![CDATA[Feb 20, 2026 10:16:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="shopProductsLinkNavigatesToProducts" classname="com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest" time="0.816">
-    <system-err><![CDATA[Feb 20, 2026 10:16:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="headerIsVisibleOnHomePage" classname="com.eyebeem.tests.layout.LayoutHeaderTest" time="0.64">
-    <system-err><![CDATA[Feb 20, 2026 10:16:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="footerIsVisibleOnHomePage" classname="com.eyebeem.tests.layout.LayoutFooterTest" time="0.637">
-    <system-err><![CDATA[Feb 20, 2026 10:16:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productsLinkNavigatesToProductsPage" classname="com.eyebeem.tests.navigation.NavigationProductsLinkTest" time="0.688">
-    <system-err><![CDATA[Feb 20, 2026 10:16:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="cartLinkNavigatesToCartPage" classname="com.eyebeem.tests.navigation.NavigationCartLinkTest" time="0.716">
-    <system-err><![CDATA[Feb 20, 2026 10:16:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="homePageDisplaysProductImages" classname="com.eyebeem.tests.images.ProductImagesHomePageTest" time="0.647">
-    <system-err><![CDATA[Feb 20, 2026 10:16:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="productsPageDisplaysProductImages" classname="com.eyebeem.tests.images.ProductImagesProductsPageTest" time="0.671">
-    <system-err><![CDATA[Feb 20, 2026 10:16:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
-]]></system-err>
-  </testcase>
-  <testcase name="loginAsEachUser_fromTestData" classname="com.eyebeem.tests.api.AuthApiTest" time="0.053"/>
-  <testcase name="login_user1_TestUser" classname="com.eyebeem.tests.api.AuthApiTest" time="0.006"/>
-  <testcase name="login_user2_JaneDoe" classname="com.eyebeem.tests.api.AuthApiTest" time="0.005"/>
+  <testcase name="loginAsEachUser_fromTestData" classname="com.eyebeem.tests.api.AuthApiTest" time="0.05"/>
+  <testcase name="login_user1_TestUser" classname="com.eyebeem.tests.api.AuthApiTest" time="0.009"/>
+  <testcase name="login_user2_JaneDoe" classname="com.eyebeem.tests.api.AuthApiTest" time="0.008"/>
   <testcase name="login_user3_imaad" classname="com.eyebeem.tests.api.AuthApiTest" time="0.009"/>
-  <testcase name="login_user4_aryan" classname="com.eyebeem.tests.api.AuthApiTest" time="0.005"/>
-  <testcase name="login_user5_petlover" classname="com.eyebeem.tests.api.AuthApiTest" time="0.006"/>
-  <testcase name="orderHistory_user1_hasOneOrder" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.005"/>
-  <testcase name="orderHistory_user1_orderHasItems" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user1_orderTotal99_99" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.003"/>
-  <testcase name="orderHistory_user2_empty" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.003"/>
-  <testcase name="orderHistory_user3_hasOneOrder" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user3_orderHasEDog" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user3_orderTotal129_99" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user4_hasOneOrder" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.003"/>
-  <testcase name="orderHistory_user4_orderHas4xECat" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user4_orderTotal399_96" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.005"/>
-  <testcase name="orderHistory_user5_hasOneOrder" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user5_orderHasEHamster" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.004"/>
-  <testcase name="orderHistory_user5_orderTotal49_99" classname="com.eyebeem.tests.api.OrdersApiTest" time="0.003"/>
-  <testcase name="getProduct1_price99_99" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.005"/>
-  <testcase name="getProduct1_returnsECat" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.005"/>
-  <testcase name="getProduct2_price129_99" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.003"/>
-  <testcase name="getProduct2_returnsEDog" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.003"/>
-  <testcase name="getProduct3_price49_99" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.003"/>
-  <testcase name="getProduct3_returnsEHamster" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.005"/>
-  <testcase name="getProducts_hasECat" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.023"/>
-  <testcase name="getProducts_hasEDog" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.004"/>
-  <testcase name="getProducts_hasEHamster" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.004"/>
-  <testcase name="getProducts_returnsThree" classname="com.eyebeem.tests.api.ProductsApiTest" time="0.003"/>
-  <testcase name="getUser1_orderHistoryHasOneOrder" classname="com.eyebeem.tests.api.UsersApiTest" time="0.004"/>
-  <testcase name="getUser1_returnsTestUser" classname="com.eyebeem.tests.api.UsersApiTest" time="0.004"/>
-  <testcase name="getUser2_orderHistoryEmpty" classname="com.eyebeem.tests.api.UsersApiTest" time="0.003"/>
-  <testcase name="getUser5_returnsPetlover" classname="com.eyebeem.tests.api.UsersApiTest" time="0.003"/>
-  <testcase name="getUser_hasOrderHistory" classname="com.eyebeem.tests.api.UsersApiTest" time="0.006"/>
-  <testcase name="addToCart_thenGetCart_containsItem" classname="com.eyebeem.tests.api.CartApiTest" time="0.037"/>
-  <testcase name="getCart_eachUserReturns200" classname="com.eyebeem.tests.api.CartApiTest" time="0.017"/>
-  <testcase name="getCart_returnsJsonObject" classname="com.eyebeem.tests.api.CartApiTest" time="0.004"/>
-  <testcase name="getCart_user1_returns200" classname="com.eyebeem.tests.api.CartApiTest" time="0.004"/>
-  <testcase name="createNewAccount_viaLogin_returnsUserWithId" classname="com.eyebeem.tests.api.CreateAccountApiTest" time="0.006"/>
-  <testcase name="getOrderCount_ReturnsNonNegative" classname="com.eyebeem.tests.db.OrdersDbTest" time="0.105"/>
-  <testcase name="getOrderItems_NonExistentOrderReturnsEmpty" classname="com.eyebeem.tests.db.OrdersDbTest" time="0.011"/>
-  <testcase name="getOrderRow_NonExistentReturnsNull" classname="com.eyebeem.tests.db.OrdersDbTest" time="0.006"/>
-  <testcase name="orderItemsTableExists" classname="com.eyebeem.tests.db.OrdersDbTest" time="0.009"/>
-  <testcase name="orderItems_ReferValidProductIds" classname="com.eyebeem.tests.db.OrdersDbTest" time="0.004"/>
-  <testcase name="ordersTableExists" classname="com.eyebeem.tests.db.OrdersDbTest" time="0.005"/>
-  <testcase name="getAllInventory_ReturnsOrderedByProductId" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.009"/>
-  <testcase name="inventoryHasAtLeastThreeProducts" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.009"/>
-  <testcase name="inventoryTableExists" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.005"/>
-  <testcase name="product1_ECatExists" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.003"/>
-  <testcase name="product1_HasCorrectPrice" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.005"/>
-  <testcase name="product1_HasQuantity" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.003"/>
-  <testcase name="product2_EDogExists" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.002"/>
-  <testcase name="product2_HasCorrectPrice" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.004"/>
-  <testcase name="product3_EHamsterExists" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.004"/>
-  <testcase name="product3_HasCorrectPrice" classname="com.eyebeem.tests.db.InventoryDbTest" time="0.007"/>
-  <testcase name="nonExistentUser_returnsNull" classname="com.eyebeem.tests.db.UsersDbTest" time="0.003"/>
-  <testcase name="user1_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.003"/>
-  <testcase name="user2_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.003"/>
-  <testcase name="user3_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.003"/>
+  <testcase name="login_user4_aryan" classname="com.eyebeem.tests.api.AuthApiTest" time="0.011"/>
+  <testcase name="login_user5_petlover" classname="com.eyebeem.tests.api.AuthApiTest" time="0.011"/>
+  <testcase name="createNewAccount_viaLogin_returnsUserWithId" classname="com.eyebeem.tests.api.CreateAccountApiTest" time="0.021"/>
+  <testcase name="getUser1_orderHistoryHasOneOrder" classname="com.eyebeem.tests.api.UsersApiTest" time="0.007"/>
+  <testcase name="getUser1_returnsTestUser" classname="com.eyebeem.tests.api.UsersApiTest" time="0.009"/>
+  <testcase name="getUser2_orderHistoryEmpty" classname="com.eyebeem.tests.api.UsersApiTest" time="0.005"/>
+  <testcase name="getUser5_returnsPetlover" classname="com.eyebeem.tests.api.UsersApiTest" time="0.01"/>
+  <testcase name="getUser_hasOrderHistory" classname="com.eyebeem.tests.api.UsersApiTest" time="0.009"/>
+  <testcase name="nonExistentUser_returnsNull" classname="com.eyebeem.tests.db.UsersDbTest" time="0.108"/>
+  <testcase name="user1_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.005"/>
+  <testcase name="user2_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.004"/>
+  <testcase name="user3_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.005"/>
   <testcase name="user4_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.003"/>
-  <testcase name="user5_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.003"/>
-  <testcase name="userCount_atLeast5" classname="com.eyebeem.tests.db.UsersDbTest" time="0.002"/>
-  <testcase name="usersTableExists" classname="com.eyebeem.tests.db.UsersDbTest" time="0.004"/>
-  <testcase name="order1_user1_total99_99" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.004"/>
-  <testcase name="order2_user3_total129_99" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.003"/>
-  <testcase name="order3_user4_total399_96" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.003"/>
-  <testcase name="order4_user5_total49_99" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.003"/>
-  <testcase name="orderCount_atLeast4" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.003"/>
-  <testcase name="user1_hasOneOrder" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.003"/>
-  <testcase name="user2_hasNoOrders" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.002"/>
-  <testcase name="user3_hasOneOrder" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.003"/>
-  <testcase name="user4_hasOneOrder" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.002"/>
-  <testcase name="user5_hasOneOrder" classname="com.eyebeem.tests.db.OrdersDataDbTest" time="0.002"/>
-  <testcase name="order1_hasOneItem_eCat" classname="com.eyebeem.tests.db.OrderItemsDbTest" time="0.002"/>
-  <testcase name="order1_unitPrice99_99" classname="com.eyebeem.tests.db.OrderItemsDbTest" time="0.003"/>
-  <testcase name="order2_hasOneItem_eDog" classname="com.eyebeem.tests.db.OrderItemsDbTest" time="0.002"/>
-  <testcase name="order3_hasOneItem_4xECat" classname="com.eyebeem.tests.db.OrderItemsDbTest" time="0.003"/>
-  <testcase name="order4_hasOneItem_eHamster" classname="com.eyebeem.tests.db.OrderItemsDbTest" time="0.002"/>
-  <testcase name="orderItems_productIdsReferInventory" classname="com.eyebeem.tests.db.OrderItemsDbTest" time="0.01"/>
-  <testcase name="product1_hasNonNegativeQuantity" classname="com.eyebeem.tests.db.InventoryDataDbTest" time="0.002"/>
-  <testcase name="product1_nameECat" classname="com.eyebeem.tests.db.InventoryDataDbTest" time="0.002"/>
-  <testcase name="product2_hasNonNegativeQuantity" classname="com.eyebeem.tests.db.InventoryDataDbTest" time="0.003"/>
-  <testcase name="product2_nameEDog" classname="com.eyebeem.tests.db.InventoryDataDbTest" time="0.003"/>
-  <testcase name="product3_hasNonNegativeQuantity" classname="com.eyebeem.tests.db.InventoryDataDbTest" time="0.003"/>
-  <testcase name="product3_nameEHamster" classname="com.eyebeem.tests.db.InventoryDataDbTest" time="0.004"/>
+  <testcase name="user5_exists_withEmail" classname="com.eyebeem.tests.db.UsersDbTest" time="0.005"/>
+  <testcase name="userCount_atLeast5" classname="com.eyebeem.tests.db.UsersDbTest" time="0.007"/>
+  <testcase name="usersTableExists" classname="com.eyebeem.tests.db.UsersDbTest" time="0.013"/>
 </testsuite>

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cart Module" verbose="1">
+    <test name="Cart - UI">
+        <classes>
+            <class name="com.eyebeem.tests.cart.CartPageEmptyTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageItemsTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageTotalTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageCheckoutTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageClearButtonTest"/>
+            <class name="com.eyebeem.tests.cart.CartPageShopProductsLinkTest"/>
+        </classes>
+    </test>
+    <test name="Cart - Navigation">
+        <classes>
+            <class name="com.eyebeem.tests.navigation.NavigationCartLinkTest"/>
+        </classes>
+    </test>
+    <test name="Cart - API">
+        <classes>
+            <class name="com.eyebeem.tests.api.CartApiTest"/>
+        </classes>
+    </test>
+</suite>
