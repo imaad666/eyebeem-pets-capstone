@@ -1,145 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-22T13:52:27 IST" name="Registration Module" finished-at="2026-02-22T13:52:35 IST" duration-ms="8768">
+  <suite started-at="2026-02-22T14:10:17 IST" name="History Module" finished-at="2026-02-22T14:10:33 IST" duration-ms="15774">
     <groups>
     </groups>
-    <test started-at="2026-02-22T13:52:27 IST" name="Registration - UI" finished-at="2026-02-22T13:52:35 IST" duration-ms="8409">
-      <class name="com.eyebeem.tests.login.LoginPageNavigationTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageNavigationTest@38cee291]" started-at="2026-02-22T13:52:33 IST" name="setUpDriver" finished-at="2026-02-22T13:52:34 IST" duration-ms="995" status="PASS">
+    <test started-at="2026-02-22T14:10:17 IST" name="History - UI" finished-at="2026-02-22T14:10:32 IST" duration-ms="15350">
+      <class name="com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest@e350b40]" started-at="2026-02-22T14:10:31 IST" name="setUpDriver" finished-at="2026-02-22T14:10:31 IST" duration-ms="867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="loginPageUrlAndTitleAreCorrect()[pri:0, instance:com.eyebeem.tests.login.LoginPageNavigationTest@38cee291]" started-at="2026-02-22T13:52:34 IST" name="loginPageUrlAndTitleAreCorrect" finished-at="2026-02-22T13:52:35 IST" duration-ms="686" status="PASS">
+        <test-method signature="shopProductsLinkNavigatesToProducts()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest@e350b40]" started-at="2026-02-22T14:10:31 IST" name="shopProductsLinkNavigatesToProducts" finished-at="2026-02-22T14:10:32 IST" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageUrlAndTitleAreCorrect -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageNavigationTest@38cee291]" started-at="2026-02-22T13:52:35 IST" name="tearDownDriver" finished-at="2026-02-22T13:52:35 IST" duration-ms="93" status="PASS">
+        </test-method> <!-- shopProductsLinkNavigatesToProducts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest@e350b40]" started-at="2026-02-22T14:10:32 IST" name="tearDownDriver" finished-at="2026-02-22T14:10:32 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageNavigationTest -->
-      <class name="com.eyebeem.tests.login.LoginPageFormTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormTest@65c7a252]" started-at="2026-02-22T13:52:27 IST" name="setUpDriver" finished-at="2026-02-22T13:52:30 IST" duration-ms="3230" status="PASS">
+      </class> <!-- com.eyebeem.tests.orders.OrdersPageShopProductsLinkTest -->
+      <class name="com.eyebeem.tests.orders.OrdersPageEmptyTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageEmptyTest@229c6181]" started-at="2026-02-22T14:10:17 IST" name="setUpDriver" finished-at="2026-02-22T14:10:20 IST" duration-ms="2907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="loginFormDisplaysNameAndEmailFields()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormTest@65c7a252]" started-at="2026-02-22T13:52:30 IST" name="loginFormDisplaysNameAndEmailFields" finished-at="2026-02-22T13:52:31 IST" duration-ms="856" status="PASS">
+        <test-method signature="ordersPageShowsEmptyMessageWhenNoOrders()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageEmptyTest@229c6181]" started-at="2026-02-22T14:10:20 IST" name="ordersPageShowsEmptyMessageWhenNoOrders" finished-at="2026-02-22T14:10:21 IST" duration-ms="1448" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFormDisplaysNameAndEmailFields -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageFormTest@65c7a252]" started-at="2026-02-22T13:52:31 IST" name="tearDownDriver" finished-at="2026-02-22T13:52:31 IST" duration-ms="97" status="PASS">
+        </test-method> <!-- ordersPageShowsEmptyMessageWhenNoOrders -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageEmptyTest@229c6181]" started-at="2026-02-22T14:10:21 IST" name="tearDownDriver" finished-at="2026-02-22T14:10:21 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageFormTest -->
-      <class name="com.eyebeem.tests.login.LoginPageSubmitTest">
-        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageSubmitTest@791f145a]" started-at="2026-02-22T13:52:31 IST" name="setUpDriver" finished-at="2026-02-22T13:52:32 IST" duration-ms="1289" status="PASS">
+      </class> <!-- com.eyebeem.tests.orders.OrdersPageEmptyTest -->
+      <class name="com.eyebeem.tests.orders.OrdersPageDetailsTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageDetailsTest@f09733f]" started-at="2026-02-22T14:10:27 IST" name="setUpDriver" finished-at="2026-02-22T14:10:28 IST" duration-ms="1079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method signature="loginFormAcceptsValidCredentials()[pri:0, instance:com.eyebeem.tests.login.LoginPageSubmitTest@791f145a]" started-at="2026-02-22T13:52:32 IST" name="loginFormAcceptsValidCredentials" finished-at="2026-02-22T13:52:33 IST" duration-ms="1008" status="PASS">
+        <test-method signature="ordersPageDisplaysOrderDetailsCorrectly()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageDetailsTest@f09733f]" started-at="2026-02-22T14:10:28 IST" name="ordersPageDisplaysOrderDetailsCorrectly" finished-at="2026-02-22T14:10:30 IST" duration-ms="2787" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFormAcceptsValidCredentials -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.login.LoginPageSubmitTest@791f145a]" started-at="2026-02-22T13:52:33 IST" name="tearDownDriver" finished-at="2026-02-22T13:52:33 IST" duration-ms="91" status="PASS">
+        </test-method> <!-- ordersPageDisplaysOrderDetailsCorrectly -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageDetailsTest@f09733f]" started-at="2026-02-22T14:10:30 IST" name="tearDownDriver" finished-at="2026-02-22T14:10:31 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-      </class> <!-- com.eyebeem.tests.login.LoginPageSubmitTest -->
-    </test> <!-- Registration - UI -->
-    <test started-at="2026-02-22T13:52:35 IST" name="Registration - API" finished-at="2026-02-22T13:52:35 IST" duration-ms="177">
-      <class name="com.eyebeem.tests.api.CreateAccountApiTest">
-        <test-method signature="createNewAccount_viaLogin_returnsUserWithId()[pri:0, instance:com.eyebeem.tests.api.CreateAccountApiTest@512baff6]" started-at="2026-02-22T13:52:35 IST" name="createNewAccount_viaLogin_returnsUserWithId" finished-at="2026-02-22T13:52:35 IST" duration-ms="22" status="PASS">
+      </class> <!-- com.eyebeem.tests.orders.OrdersPageDetailsTest -->
+      <class name="com.eyebeem.tests.orders.OrdersPageListTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageListTest@4b45a2f5]" started-at="2026-02-22T14:10:21 IST" name="setUpDriver" finished-at="2026-02-22T14:10:23 IST" duration-ms="1703" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewAccount_viaLogin_returnsUserWithId -->
-      </class> <!-- com.eyebeem.tests.api.CreateAccountApiTest -->
-      <class name="com.eyebeem.tests.api.AuthApiTest">
-        <test-method signature="loginAsEachUser_fromTestData()[pri:0, instance:com.eyebeem.tests.api.AuthApiTest@4ae9cfc1]" started-at="2026-02-22T13:52:35 IST" name="loginAsEachUser_fromTestData" finished-at="2026-02-22T13:52:35 IST" duration-ms="51" status="PASS">
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="ordersPageDisplaysOrderListAfterOrderIsPlaced()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageListTest@4b45a2f5]" started-at="2026-02-22T14:10:23 IST" name="ordersPageDisplaysOrderListAfterOrderIsPlaced" finished-at="2026-02-22T14:10:27 IST" duration-ms="3315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAsEachUser_fromTestData -->
-        <test-method signature="login_user1_TestUser()[pri:0, instance:com.eyebeem.tests.api.AuthApiTest@4ae9cfc1]" started-at="2026-02-22T13:52:35 IST" name="login_user1_TestUser" finished-at="2026-02-22T13:52:35 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- ordersPageDisplaysOrderListAfterOrderIsPlaced -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.eyebeem.tests.orders.OrdersPageListTest@4b45a2f5]" started-at="2026-02-22T14:10:27 IST" name="tearDownDriver" finished-at="2026-02-22T14:10:27 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_user1_TestUser -->
-        <test-method signature="login_user2_JaneDoe()[pri:0, instance:com.eyebeem.tests.api.AuthApiTest@4ae9cfc1]" started-at="2026-02-22T13:52:35 IST" name="login_user2_JaneDoe" finished-at="2026-02-22T13:52:35 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- com.eyebeem.tests.orders.OrdersPageListTest -->
+    </test> <!-- History - UI -->
+    <test started-at="2026-02-22T14:10:32 IST" name="History - API" finished-at="2026-02-22T14:10:32 IST" duration-ms="147">
+      <class name="com.eyebeem.tests.api.OrdersApiTest">
+        <test-method signature="orderHistory_user1_hasOneOrder()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user1_hasOneOrder" finished-at="2026-02-22T14:10:32 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_user2_JaneDoe -->
-        <test-method signature="login_user3_imaad()[pri:0, instance:com.eyebeem.tests.api.AuthApiTest@4ae9cfc1]" started-at="2026-02-22T13:52:35 IST" name="login_user3_imaad" finished-at="2026-02-22T13:52:35 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- orderHistory_user1_hasOneOrder -->
+        <test-method signature="orderHistory_user1_orderHasItems()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user1_orderHasItems" finished-at="2026-02-22T14:10:32 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_user3_imaad -->
-        <test-method signature="login_user4_aryan()[pri:0, instance:com.eyebeem.tests.api.AuthApiTest@4ae9cfc1]" started-at="2026-02-22T13:52:35 IST" name="login_user4_aryan" finished-at="2026-02-22T13:52:35 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- orderHistory_user1_orderHasItems -->
+        <test-method signature="orderHistory_user1_orderTotal99_99()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user1_orderTotal99_99" finished-at="2026-02-22T14:10:32 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_user4_aryan -->
-        <test-method signature="login_user5_petlover()[pri:0, instance:com.eyebeem.tests.api.AuthApiTest@4ae9cfc1]" started-at="2026-02-22T13:52:35 IST" name="login_user5_petlover" finished-at="2026-02-22T13:52:35 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- orderHistory_user1_orderTotal99_99 -->
+        <test-method signature="orderHistory_user2_empty()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user2_empty" finished-at="2026-02-22T14:10:32 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_user5_petlover -->
-      </class> <!-- com.eyebeem.tests.api.AuthApiTest -->
-      <class name="com.eyebeem.tests.api.UsersApiTest">
-        <test-method signature="getUser1_orderHistoryHasOneOrder()[pri:0, instance:com.eyebeem.tests.api.UsersApiTest@632ceb35]" started-at="2026-02-22T13:52:35 IST" name="getUser1_orderHistoryHasOneOrder" finished-at="2026-02-22T13:52:35 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- orderHistory_user2_empty -->
+        <test-method signature="orderHistory_user3_hasOneOrder()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user3_hasOneOrder" finished-at="2026-02-22T14:10:32 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser1_orderHistoryHasOneOrder -->
-        <test-method signature="getUser1_returnsTestUser()[pri:0, instance:com.eyebeem.tests.api.UsersApiTest@632ceb35]" started-at="2026-02-22T13:52:35 IST" name="getUser1_returnsTestUser" finished-at="2026-02-22T13:52:35 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- orderHistory_user3_hasOneOrder -->
+        <test-method signature="orderHistory_user3_orderHasEDog()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user3_orderHasEDog" finished-at="2026-02-22T14:10:32 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser1_returnsTestUser -->
-        <test-method signature="getUser2_orderHistoryEmpty()[pri:0, instance:com.eyebeem.tests.api.UsersApiTest@632ceb35]" started-at="2026-02-22T13:52:35 IST" name="getUser2_orderHistoryEmpty" finished-at="2026-02-22T13:52:35 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- orderHistory_user3_orderHasEDog -->
+        <test-method signature="orderHistory_user3_orderTotal129_99()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user3_orderTotal129_99" finished-at="2026-02-22T14:10:32 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser2_orderHistoryEmpty -->
-        <test-method signature="getUser5_returnsPetlover()[pri:0, instance:com.eyebeem.tests.api.UsersApiTest@632ceb35]" started-at="2026-02-22T13:52:35 IST" name="getUser5_returnsPetlover" finished-at="2026-02-22T13:52:35 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- orderHistory_user3_orderTotal129_99 -->
+        <test-method signature="orderHistory_user4_hasOneOrder()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user4_hasOneOrder" finished-at="2026-02-22T14:10:32 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser5_returnsPetlover -->
-        <test-method signature="getUser_hasOrderHistory()[pri:0, instance:com.eyebeem.tests.api.UsersApiTest@632ceb35]" started-at="2026-02-22T13:52:35 IST" name="getUser_hasOrderHistory" finished-at="2026-02-22T13:52:35 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- orderHistory_user4_hasOneOrder -->
+        <test-method signature="orderHistory_user4_orderHas4xECat()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user4_orderHas4xECat" finished-at="2026-02-22T14:10:32 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser_hasOrderHistory -->
-      </class> <!-- com.eyebeem.tests.api.UsersApiTest -->
-    </test> <!-- Registration - API -->
-    <test started-at="2026-02-22T13:52:35 IST" name="Registration - Database" finished-at="2026-02-22T13:52:35 IST" duration-ms="160">
-      <class name="com.eyebeem.tests.db.UsersDbTest">
-        <test-method signature="nonExistentUser_returnsNull()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="nonExistentUser_returnsNull" finished-at="2026-02-22T13:52:35 IST" duration-ms="108" status="PASS">
+        </test-method> <!-- orderHistory_user4_orderHas4xECat -->
+        <test-method signature="orderHistory_user4_orderTotal399_96()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user4_orderTotal399_96" finished-at="2026-02-22T14:10:32 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- nonExistentUser_returnsNull -->
-        <test-method signature="user1_exists_withEmail()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="user1_exists_withEmail" finished-at="2026-02-22T13:52:35 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- orderHistory_user4_orderTotal399_96 -->
+        <test-method signature="orderHistory_user5_hasOneOrder()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user5_hasOneOrder" finished-at="2026-02-22T14:10:32 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user1_exists_withEmail -->
-        <test-method signature="user2_exists_withEmail()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="user2_exists_withEmail" finished-at="2026-02-22T13:52:35 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- orderHistory_user5_hasOneOrder -->
+        <test-method signature="orderHistory_user5_orderHasEHamster()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user5_orderHasEHamster" finished-at="2026-02-22T14:10:32 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user2_exists_withEmail -->
-        <test-method signature="user3_exists_withEmail()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="user3_exists_withEmail" finished-at="2026-02-22T13:52:35 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- orderHistory_user5_orderHasEHamster -->
+        <test-method signature="orderHistory_user5_orderTotal49_99()[pri:0, instance:com.eyebeem.tests.api.OrdersApiTest@632ceb35]" started-at="2026-02-22T14:10:32 IST" name="orderHistory_user5_orderTotal49_99" finished-at="2026-02-22T14:10:32 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user3_exists_withEmail -->
-        <test-method signature="user4_exists_withEmail()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="user4_exists_withEmail" finished-at="2026-02-22T13:52:35 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- orderHistory_user5_orderTotal49_99 -->
+      </class> <!-- com.eyebeem.tests.api.OrdersApiTest -->
+    </test> <!-- History - API -->
+    <test started-at="2026-02-22T14:10:32 IST" name="History - Database" finished-at="2026-02-22T14:10:33 IST" duration-ms="260">
+      <class name="com.eyebeem.tests.db.OrdersDataDbTest">
+        <test-method signature="order1_user1_total99_99()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="order1_user1_total99_99" finished-at="2026-02-22T14:10:33 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user4_exists_withEmail -->
-        <test-method signature="user5_exists_withEmail()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="user5_exists_withEmail" finished-at="2026-02-22T13:52:35 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- order1_user1_total99_99 -->
+        <test-method signature="order2_user3_total129_99()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="order2_user3_total129_99" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user5_exists_withEmail -->
-        <test-method signature="userCount_atLeast5()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="userCount_atLeast5" finished-at="2026-02-22T13:52:35 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- order2_user3_total129_99 -->
+        <test-method signature="order3_user4_total399_96()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="order3_user4_total399_96" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userCount_atLeast5 -->
-        <test-method signature="usersTableExists()[pri:0, instance:com.eyebeem.tests.db.UsersDbTest@141e5bef]" started-at="2026-02-22T13:52:35 IST" name="usersTableExists" finished-at="2026-02-22T13:52:35 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- order3_user4_total399_96 -->
+        <test-method signature="order4_user5_total49_99()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="order4_user5_total49_99" finished-at="2026-02-22T14:10:33 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usersTableExists -->
-      </class> <!-- com.eyebeem.tests.db.UsersDbTest -->
-    </test> <!-- Registration - Database -->
-  </suite> <!-- Registration Module -->
+        </test-method> <!-- order4_user5_total49_99 -->
+        <test-method signature="orderCount_atLeast4()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="orderCount_atLeast4" finished-at="2026-02-22T14:10:33 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderCount_atLeast4 -->
+        <test-method signature="user1_hasOneOrder()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="user1_hasOneOrder" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user1_hasOneOrder -->
+        <test-method signature="user2_hasNoOrders()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="user2_hasNoOrders" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2_hasNoOrders -->
+        <test-method signature="user3_hasOneOrder()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="user3_hasOneOrder" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user3_hasOneOrder -->
+        <test-method signature="user4_hasOneOrder()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="user4_hasOneOrder" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user4_hasOneOrder -->
+        <test-method signature="user5_hasOneOrder()[pri:0, instance:com.eyebeem.tests.db.OrdersDataDbTest@1e461e41]" started-at="2026-02-22T14:10:33 IST" name="user5_hasOneOrder" finished-at="2026-02-22T14:10:33 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user5_hasOneOrder -->
+      </class> <!-- com.eyebeem.tests.db.OrdersDataDbTest -->
+      <class name="com.eyebeem.tests.db.OrdersDbTest">
+        <test-method signature="getOrderCount_ReturnsNonNegative()[pri:0, instance:com.eyebeem.tests.db.OrdersDbTest@5d066c7d]" started-at="2026-02-22T14:10:32 IST" name="getOrderCount_ReturnsNonNegative" finished-at="2026-02-22T14:10:33 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderCount_ReturnsNonNegative -->
+        <test-method signature="getOrderItems_NonExistentOrderReturnsEmpty()[pri:0, instance:com.eyebeem.tests.db.OrdersDbTest@5d066c7d]" started-at="2026-02-22T14:10:33 IST" name="getOrderItems_NonExistentOrderReturnsEmpty" finished-at="2026-02-22T14:10:33 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderItems_NonExistentOrderReturnsEmpty -->
+        <test-method signature="getOrderRow_NonExistentReturnsNull()[pri:0, instance:com.eyebeem.tests.db.OrdersDbTest@5d066c7d]" started-at="2026-02-22T14:10:33 IST" name="getOrderRow_NonExistentReturnsNull" finished-at="2026-02-22T14:10:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderRow_NonExistentReturnsNull -->
+        <test-method signature="orderItemsTableExists()[pri:0, instance:com.eyebeem.tests.db.OrdersDbTest@5d066c7d]" started-at="2026-02-22T14:10:33 IST" name="orderItemsTableExists" finished-at="2026-02-22T14:10:33 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderItemsTableExists -->
+        <test-method signature="orderItems_ReferValidProductIds()[pri:0, instance:com.eyebeem.tests.db.OrdersDbTest@5d066c7d]" started-at="2026-02-22T14:10:33 IST" name="orderItems_ReferValidProductIds" finished-at="2026-02-22T14:10:33 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderItems_ReferValidProductIds -->
+        <test-method signature="ordersTableExists()[pri:0, instance:com.eyebeem.tests.db.OrdersDbTest@5d066c7d]" started-at="2026-02-22T14:10:33 IST" name="ordersTableExists" finished-at="2026-02-22T14:10:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordersTableExists -->
+      </class> <!-- com.eyebeem.tests.db.OrdersDbTest -->
+      <class name="com.eyebeem.tests.db.OrderItemsDbTest">
+        <test-method signature="order1_hasOneItem_eCat()[pri:0, instance:com.eyebeem.tests.db.OrderItemsDbTest@5ba88be8]" started-at="2026-02-22T14:10:33 IST" name="order1_hasOneItem_eCat" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order1_hasOneItem_eCat -->
+        <test-method signature="order1_unitPrice99_99()[pri:0, instance:com.eyebeem.tests.db.OrderItemsDbTest@5ba88be8]" started-at="2026-02-22T14:10:33 IST" name="order1_unitPrice99_99" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order1_unitPrice99_99 -->
+        <test-method signature="order2_hasOneItem_eDog()[pri:0, instance:com.eyebeem.tests.db.OrderItemsDbTest@5ba88be8]" started-at="2026-02-22T14:10:33 IST" name="order2_hasOneItem_eDog" finished-at="2026-02-22T14:10:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order2_hasOneItem_eDog -->
+        <test-method signature="order3_hasOneItem_4xECat()[pri:0, instance:com.eyebeem.tests.db.OrderItemsDbTest@5ba88be8]" started-at="2026-02-22T14:10:33 IST" name="order3_hasOneItem_4xECat" finished-at="2026-02-22T14:10:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order3_hasOneItem_4xECat -->
+        <test-method signature="order4_hasOneItem_eHamster()[pri:0, instance:com.eyebeem.tests.db.OrderItemsDbTest@5ba88be8]" started-at="2026-02-22T14:10:33 IST" name="order4_hasOneItem_eHamster" finished-at="2026-02-22T14:10:33 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order4_hasOneItem_eHamster -->
+        <test-method signature="orderItems_productIdsReferInventory()[pri:0, instance:com.eyebeem.tests.db.OrderItemsDbTest@5ba88be8]" started-at="2026-02-22T14:10:33 IST" name="orderItems_productIdsReferInventory" finished-at="2026-02-22T14:10:33 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderItems_productIdsReferInventory -->
+      </class> <!-- com.eyebeem.tests.db.OrderItemsDbTest -->
+    </test> <!-- History - Database -->
+  </suite> <!-- History Module -->
 </testng-results>

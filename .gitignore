@@ -1,0 +1,36 @@
+# IDE & editor
+.idea
+.vscode/*
+!.vscode/extensions.json
+.cursor
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+
+# Build outputs (includes allure-results, surefire-reports, etc.)
+backend/target/
+testing/target/
+
+# Unnecessary / scratch folders
+db test/
+static_test_1/
+tng+sel_1/
+tng+sel_2/
+
+# Logs
+*.log
+logs/
+
+# Java
+*.class
+
+# Frontend (in addition to frontend/.gitignore)
+node_modules/
+dist/
+dist-ssr/
+*.local
