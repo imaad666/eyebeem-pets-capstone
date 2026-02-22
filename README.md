@@ -29,6 +29,8 @@ mvn spring-boot:run
 
 ## TNG + Selenium pt 3
 
+![Test Screenshot](tng+sel_3_allure_reports/tcs_120.png)
+
 ## Allure Reports - Module Wise
 
 ### Module 1 - Registration
