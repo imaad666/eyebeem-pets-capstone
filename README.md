@@ -80,3 +80,7 @@ Database – Orders and order items tables and data
 ![History Allure](tng+sel_3_allure_modules/history_1.png)
 ![History Allure](tng+sel_3_allure_modules/history_2.png)
 ![History Allure](tng+sel_3_allure_modules/history_3.png)
+
+## Throughput
+
+![Throughput](tng+sel_3_allure_modules/jmeter.png)
