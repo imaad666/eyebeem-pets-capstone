@@ -34,13 +34,8 @@ public class LoginPageLogoutTest extends BaseTest {
         WebElement submitButton = driver.findElement(By.cssSelector("button[type='submit']"));
         submitButton.click();
         
-        // Wait for profile page
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h2")));
-        
-        // Click logout button
-        WebElement logoutButton = driver.findElement(By.cssSelector("button"));
-        Assert.assertTrue(logoutButton.getText().contains("LOG OUT"),
-                "Logout button should be visible");
+        // Wait for profile page and LOG OUT button (re-find to avoid stale element)
+        WebElement logoutButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'LOG OUT')]")));
         logoutButton.click();
         
         // Wait for login form to reappear
