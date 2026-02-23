@@ -61,8 +61,8 @@ jobs:
         run: |
           mvn -q -DskipTests spring-boot:run -Dspring-boot.run.profiles=ci &
           echo "Waiting for backend..."
-          for i in $(seq 1 45); do
-            curl -sf http://127.0.0.1:8081/api/products > /dev/null && echo "Backend ready" && break
+          for i in $(seq 1 60); do
+            curl -sf http://127.0.0.1:8081/api/products > /dev/null && echo "Backend ready" && sleep 5 && break
             sleep 2
           done
 
@@ -74,11 +74,17 @@ jobs:
         working-directory: frontend
         run: |
           npm run dev &
-          sleep 10
-          curl -sf http://127.0.0.1:5173/ > /dev/null || echo "Frontend may still be starting"
+          echo "Waiting for frontend..."
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:5173/ > /dev/null && echo "Frontend ready" && break
+            sleep 2
+          done
+          sleep 3
 
       - name: Run all tests
         working-directory: testing
+        env:
+          CI: true
         run: |
           mvn clean test -DsuiteXmlFile=testng.xml -Dallure.results.directory=target/allure-results
         continue-on-error: true
