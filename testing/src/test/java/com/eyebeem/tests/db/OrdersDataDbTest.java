@@ -1,6 +1,7 @@
 package com.eyebeem.tests.db;
 
 import com.eyebeem.tests.BaseDbTest;
+import com.eyebeem.tests.DataDependent;
 import com.eyebeem.tests.util.DatabaseUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,6 +13,7 @@ import java.util.List;
 /**
  * DB tests for orders data (aligned with db test/orders.json).
  */
+@DataDependent
 public class OrdersDataDbTest extends BaseDbTest {
 
     @Test

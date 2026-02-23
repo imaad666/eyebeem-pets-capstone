@@ -1,6 +1,7 @@
 package com.eyebeem.tests.products;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,6 +13,7 @@ import java.time.Duration;
 import java.util.List;
 
 /** Tests that products page has type filter dropdown. */
+@DataDependent
 public class ProductsPageFilterDropdownTest extends BaseTest {
 
     @Test

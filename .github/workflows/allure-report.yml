@@ -81,12 +81,12 @@ jobs:
           done
           sleep 3
 
-      - name: Run CI tests (empty-DB suite)
+      - name: Run tests (full suite, data-dependent skipped in CI)
         working-directory: testing
         env:
           CI: true
         run: |
-          mvn clean test -DsuiteXmlFile=suites/testng-ci.xml -Dallure.results.directory=target/allure-results
+          mvn clean test -DsuiteXmlFile=testng.xml -Dallure.results.directory=target/allure-results
 
       - name: Generate Allure report
         working-directory: testing

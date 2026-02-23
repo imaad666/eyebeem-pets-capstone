@@ -1,6 +1,7 @@
 package com.eyebeem.tests.cart;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,6 +13,7 @@ import java.time.Duration;
 import java.util.List;
 
 /** Tests that CLEAR CART button empties the cart. */
+@DataDependent
 public class CartPageClearButtonTest extends BaseTest {
 
     @Test

@@ -1,6 +1,7 @@
 package com.eyebeem.tests.login;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,6 +14,7 @@ import java.time.Duration;
 /**
  * Tests that logout functionality works correctly.
  */
+@DataDependent
 public class LoginPageLogoutTest extends BaseTest {
 
     @Test

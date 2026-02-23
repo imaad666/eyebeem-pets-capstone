@@ -1,6 +1,7 @@
 package com.eyebeem.tests.api;
 
 import com.eyebeem.tests.BaseApiTest;
+import com.eyebeem.tests.DataDependent;
 import com.google.gson.JsonObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,6 +11,7 @@ import java.net.http.HttpResponse;
 /**
  * API tests for cart: get cart for users.
  */
+@DataDependent
 public class CartApiTest extends BaseApiTest {
 
     @Test

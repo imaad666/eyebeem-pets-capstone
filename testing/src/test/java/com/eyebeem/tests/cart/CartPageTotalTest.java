@@ -1,6 +1,7 @@
 package com.eyebeem.tests.cart;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +15,7 @@ import java.util.List;
 /**
  * Tests that cart page calculates and displays total correctly.
  */
+@DataDependent
 public class CartPageTotalTest extends BaseTest {
 
     @Test

@@ -1,6 +1,7 @@
 package com.eyebeem.tests.api;
 
 import com.eyebeem.tests.BaseApiTest;
+import com.eyebeem.tests.DataDependent;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -12,6 +13,7 @@ import java.net.http.HttpResponse;
 /**
  * API tests for order history: per-user orders and order contents.
  */
+@DataDependent
 public class OrdersApiTest extends BaseApiTest {
 
     @Test

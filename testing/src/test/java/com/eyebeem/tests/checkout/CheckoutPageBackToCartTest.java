@@ -1,6 +1,7 @@
 package com.eyebeem.tests.checkout;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,6 +12,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 /** Tests that BACK TO CART link navigates to cart from checkout. */
+@DataDependent
 public class CheckoutPageBackToCartTest extends BaseTest {
 
     @Test

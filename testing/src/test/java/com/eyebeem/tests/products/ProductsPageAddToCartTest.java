@@ -1,6 +1,7 @@
 package com.eyebeem.tests.products;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +15,7 @@ import java.util.List;
 /**
  * Tests that adding products to cart from products page works correctly.
  */
+@DataDependent
 public class ProductsPageAddToCartTest extends BaseTest {
 
     @Test

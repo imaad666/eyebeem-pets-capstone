@@ -1,6 +1,7 @@
 package com.eyebeem.tests.db;
 
 import com.eyebeem.tests.BaseDbTest;
+import com.eyebeem.tests.DataDependent;
 import com.eyebeem.tests.util.DatabaseUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,6 +11,7 @@ import java.sql.SQLException;
 /**
  * DB tests for users table (aligned with db test/users.json).
  */
+@DataDependent
 public class UsersDbTest extends BaseDbTest {
 
     @Test

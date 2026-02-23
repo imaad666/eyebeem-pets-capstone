@@ -1,6 +1,7 @@
 package com.eyebeem.tests.orders;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +15,7 @@ import java.util.List;
 /**
  * Tests that orders page displays list of orders correctly.
  */
+@DataDependent
 public class OrdersPageListTest extends BaseTest {
 
     @Test

@@ -1,6 +1,7 @@
 package com.eyebeem.tests.images;
 
 import com.eyebeem.tests.BaseTest;
+import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +15,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /** Tests that product images have correct alt text for accessibility. */
+@DataDependent
 public class ProductImagesAltTextTest extends BaseTest {
 
     @Test

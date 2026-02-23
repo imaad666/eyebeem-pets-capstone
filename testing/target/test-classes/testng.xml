@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="EYE BEE M Pets UI Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.eyebeem.tests.CiSkipListener"/>
+    </listeners>
     <test name="Home Page Tests">
         <classes>
             <class name="com.eyebeem.tests.home.HomePageTitleTest"/>
