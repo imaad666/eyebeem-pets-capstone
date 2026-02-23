@@ -1,7 +1,6 @@
 package com.eyebeem.tests.db;
 
 import com.eyebeem.tests.BaseDbTest;
-import com.eyebeem.tests.DataDependent;
 import com.eyebeem.tests.util.DatabaseUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,7 +9,6 @@ import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.util.List;
 
-@DataDependent
 public class InventoryDbTest extends BaseDbTest {
 
     @Test

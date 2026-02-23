@@ -96,6 +96,29 @@
                     <reportVersion>2.29.0</reportVersion>
                 </configuration>
             </plugin>
+            <!-- JMeter load testing -->
+            <plugin>
+                <groupId>com.lazerycode.jmeter</groupId>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <testPlanLibraries>
+                        <jmeterExtensions>
+                            <artifact>kg.apc:jmeter-plugins-standard:2.0</artifact>
+                        </jmeterExtensions>
+                    </testPlanLibraries>
+                    <propertiesUser>
+                        <jmeter.save.saveservice.output_format>xml</jmeter.save.saveservice.output_format>
+                    </propertiesUser>
+                    <testResultsTimestamp>false</testResultsTimestamp>
+                    <generateReports>true</generateReports>
+                    <resultsFileFormat>xml</resultsFileFormat>
+                    <testPlanDirectory>${project.basedir}/../jmeter/plans</testPlanDirectory>
+                    <testPlanFiles>
+                        <jMeterTestPlan>eyebeem-load.jmx</jMeterTestPlan>
+                    </testPlanFiles>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

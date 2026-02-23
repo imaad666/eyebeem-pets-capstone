@@ -1,14 +1,12 @@
 package com.eyebeem.tests.db;
 
 import com.eyebeem.tests.BaseDbTest;
-import com.eyebeem.tests.DataDependent;
 import com.eyebeem.tests.util.DatabaseUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.sql.SQLException;
 
-@DataDependent
 public class OrdersDbTest extends BaseDbTest {
 
     @Test

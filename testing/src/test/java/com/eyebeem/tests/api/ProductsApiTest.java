@@ -1,7 +1,6 @@
 package com.eyebeem.tests.api;
 
 import com.eyebeem.tests.BaseApiTest;
-import com.eyebeem.tests.DataDependent;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -13,7 +12,6 @@ import java.net.http.HttpResponse;
 /**
  * API tests for products endpoint.
  */
-@DataDependent
 public class ProductsApiTest extends BaseApiTest {
 
     @Test

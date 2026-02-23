@@ -1,7 +1,6 @@
 package com.eyebeem.tests.images;
 
 import com.eyebeem.tests.BaseTest;
-import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,7 +12,6 @@ import java.time.Duration;
 import java.util.List;
 
 /** Tests that product images are displayed on the products page. */
-@DataDependent
 public class ProductImagesProductsPageTest extends BaseTest {
 
     @Test

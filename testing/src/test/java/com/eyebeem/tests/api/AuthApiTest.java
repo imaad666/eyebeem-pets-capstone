@@ -1,7 +1,6 @@
 package com.eyebeem.tests.api;
 
 import com.eyebeem.tests.BaseApiTest;
-import com.eyebeem.tests.DataDependent;
 import com.eyebeem.tests.util.TestDataLoader;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -17,7 +16,6 @@ import java.util.stream.StreamSupport;
 /**
  * API tests for login: each account login and response validation.
  */
-@DataDependent
 public class AuthApiTest extends BaseApiTest {
 
     @Test

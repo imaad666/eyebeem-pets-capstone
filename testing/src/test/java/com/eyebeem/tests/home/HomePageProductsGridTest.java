@@ -1,7 +1,6 @@
 package com.eyebeem.tests.home;
 
 import com.eyebeem.tests.BaseTest;
-import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,7 +12,6 @@ import java.time.Duration;
 import java.util.List;
 
 /** Tests that home page displays product grid with add-to-cart buttons. */
-@DataDependent
 public class HomePageProductsGridTest extends BaseTest {
 
     @Test

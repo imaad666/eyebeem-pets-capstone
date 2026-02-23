@@ -1,7 +1,6 @@
 package com.eyebeem.tests.images;
 
 import com.eyebeem.tests.BaseTest;
-import com.eyebeem.tests.DataDependent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -14,7 +13,6 @@ import java.time.Duration;
 import java.util.List;
 
 /** Tests that product images load with valid dimensions. */
-@DataDependent
 public class ProductImagesLoadTest extends BaseTest {
 
     @Test
