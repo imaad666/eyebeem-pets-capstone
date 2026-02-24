@@ -1,4 +1,4 @@
-# EYE BEE M Pets - Capstone Project
+# EYE BEE M Pets
 
 ### Frontend
 
