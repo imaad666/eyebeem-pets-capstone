@@ -66,7 +66,7 @@ Cart API – Cart endpoints
 
 ### Module 4 - Checkout
 4. Checkout Module
-Checkout UI – Address, payment, order submission, empty cart handling, Back to Cart
+Checkout  – Address, payment, order submission, empty cart handling, Back to Cart
 
 ![Checkout Allure](tng+sel_3_allure_modules/checkout_1.png)
 ![Checkout Allure](tng+sel_3_allure_modules/checkout_2.png)
