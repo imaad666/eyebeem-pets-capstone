@@ -8,7 +8,7 @@ npm install
 npm run dev
 ```
 
-### Backend (Coming soon)
+### Backend (done)
 
 ```bash
 cd backend
