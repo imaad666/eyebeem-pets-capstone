@@ -75,7 +75,7 @@ Checkout  – Address, payment, order submission, empty cart handling, Back to C
 5. History Module
 Orders UI – Empty orders, list, details, Shop Products link
 Orders API – Order endpoints
-Database – Orders and order items tables and data
+Database – Orders and order items tables and data. 
 
 ![History Allure](tng+sel_3_allure_modules/history_1.png)
 ![History Allure](tng+sel_3_allure_modules/history_2.png)
