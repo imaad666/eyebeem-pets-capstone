@@ -19,7 +19,7 @@ mvn spring-boot:run
 
 ![Lighthouse performance tests](lighthouse.png)
 
-## TNG + Selenium Tests (Frontend)
+## TNG + Selenium Tests (Frontend) pt 1
 
 ![Test Screenshot](tng+sel_1/37_tcs.png)
 
