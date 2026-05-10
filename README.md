@@ -1,4 +1,4 @@
-# EYE BEE M Pets
+# EYE BEE M Pets Shop
 
 ### Frontend
 
